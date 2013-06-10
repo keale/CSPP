@@ -37,7 +37,16 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="Classes" Type="Folder"/>
 			<Item Name="Libraries" Type="Folder"/>
 		</Item>
-		<Item Name="Documentation" Type="Folder"/>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="StdSEM" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="usreqsp.doc" Type="Document" URL="../Documentation/usreqsp.doc"/>
+				<Item Name="swreqsp.doc" Type="Document" URL="../Documentation/swreqsp.doc"/>
+				<Item Name="archsp.doc" Type="Document" URL="../Documentation/archsp.doc"/>
+				<Item Name="detspec.doc" Type="Document" URL="../Documentation/detspec.doc"/>
+				<Item Name="userman.doc" Type="Document" URL="../Documentation/userman.doc"/>
+			</Item>
+		</Item>
 		<Item Name="EUPL License" Type="Folder">
 			<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
 			<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
