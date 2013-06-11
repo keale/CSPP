@@ -49,4 +49,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Serialized ACL" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="CS++Base.lvclass" Type="LVClass" URL="../Base/CS++Base.lvclass"/>
+	<Item Name="CS++Factory.lvclass" Type="LVClass" URL="../Factory/CS++Factory.lvclass"/>
+	<Item Name="CS++Reference.lvclass" Type="LVClass" URL="../Reference/CS++Reference.lvclass"/>
 </Library>
