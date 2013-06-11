@@ -39,7 +39,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="Classes" Type="Folder">
 				<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
 			</Item>
-			<Item Name="Libraries" Type="Folder"/>
+			<Item Name="Libraries" Type="Folder">
+				<Item Name="CS++Base.lvlib" Type="Library" URL="../Core/Libraries/Base/CS++Base.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="StdSEM" Type="Folder">
