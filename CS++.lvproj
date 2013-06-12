@@ -42,7 +42,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="Libraries" Type="Folder">
 				<Item Name="CS++Base.lvlib" Type="Library" URL="../Core/Libraries/Base/CS++Base.lvlib"/>
 			</Item>
-			<Item Name="CS++Example.ini" Type="Document" URL="../Core/CS++Example.ini"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="StdSEM" Type="Folder">
@@ -59,6 +58,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="CS++Core-Examples.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-Examples.lvlib"/>
 			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
 		</Item>
 		<Item Name="User" Type="Folder"/>
