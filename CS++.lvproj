@@ -58,6 +58,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
 			<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
 		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
+		</Item>
 		<Item Name="User" Type="Folder"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
