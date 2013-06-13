@@ -49,8 +49,13 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="FGV reentrant.vi" Type="VI" URL="../FGV reentrant.vi"/>
+	</Item>
 	<Item Name="Typdefs" Type="Folder">
 		<Item Name="Error Definition.ctl" Type="VI" URL="../Error Definition.ctl"/>
 	</Item>
 	<Item Name="Error Code to Error Cluster.vi" Type="VI" URL="../Error Code to Error Cluster.vi"/>
+	<Item Name="FGV Actor Enqueuer.vi" Type="VI" URL="../FGV Actor Enqueuer.vi"/>
 </Library>
