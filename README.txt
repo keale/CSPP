@@ -1,4 +1,4 @@
-This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Framework.
+This LabVIEW project "CS++.lvproj" is used to develop the successor of the CS Framework and is based on LVOOP and the Actor Framework.
 
 - CS++ will be based on native LabVIEW classes and the Actor Framework.
 - CS++ will follow the KISS principle: "Keep It Smart & Simple"
