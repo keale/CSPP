@@ -69,18 +69,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="protected" Type="Folder">
-		<Item Name="Read Attribute Data.vi" Type="VI" URL="../Read Attribute Data.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;N!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!5QZ"&gt;(2S;7*V&gt;'5A2'&amp;U91!!2%"Q!"Y!!#M61V-L+U*B=W6$&lt;'&amp;T=W6T,GRW&lt;'FC%U.4+SN'97.U&lt;X*Z,GRW9WRB=X-!$U.4+SN'97.U&lt;X*Z)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-0````],4W*K:7.U)%ZB&lt;75!2%"Q!"Y!!#M61V-L+U*B=W6$&lt;'&amp;T=W6T,GRW&lt;'FC%U.4+SN'97.U&lt;X*Z,GRW9WRB=X-!$E.4+SN'97.U&lt;X*Z)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!))!!!!E!!!!!!"!!I!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
-	</Item>
+	<Item Name="protected" Type="Folder"/>
 	<Item Name="Create Object.vi" Type="VI" URL="../Create Object.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'E!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E!B%5&amp;U&gt;(*J9H6U:8-A:G^V&lt;G1`!#B!=!!?!!!/4'&amp;C6EF&amp;6S"09GJF9X1!$ERB9F:*26=A4W*K:7.U!!"%1(!!(A!!+R6$5SML1G&amp;T:5.M98.T:8-O&lt;(:M;7)41V-L+U:B9X2P=HEO&lt;(:D&lt;'&amp;T=Q!01V-L+U:B9X2P=HEA&lt;X6U!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-0````],4W*K:7.U)%ZB&lt;75!2%"Q!"Y!!#M61V-L+U*B=W6$&lt;'&amp;T=W6T,GRW&lt;'FC%U.4+SN'97.U&lt;X*Z,GRW9WRB=X-!$E.4+SN'97.U&lt;X*Z)'FO!!"B!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!))!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -107,5 +96,14 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="Read Attribute Data.vi" Type="VI" URL="../Read Attribute Data.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;N!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!5QZ"&gt;(2S;7*V&gt;'5A2'&amp;U91!!2%"Q!"Y!!#M61V-L+U*B=W6$&lt;'&amp;T=W6T,GRW&lt;'FC%U.4+SN'97.U&lt;X*Z,GRW9WRB=X-!$U.4+SN'97.U&lt;X*Z)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-0````],4W*K:7.U)%ZB&lt;75!2%"Q!"Y!!#M61V-L+U*B=W6$&lt;'&amp;T=W6T,GRW&lt;'FC%U.4+SN'97.U&lt;X*Z,GRW9WRB=X-!$E.4+SN'97.U&lt;X*Z)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!))!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 </LVClass>

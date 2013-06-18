@@ -57,6 +57,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Error Definition.ctl" Type="VI" URL="../Error Definition.ctl"/>
 		<Item Name="Severity.ctl" Type="VI" URL="../Severity.ctl"/>
 	</Item>
+	<Item Name="Boolean String to Boolean.vi" Type="VI" URL="../Boolean String to Boolean.vi"/>
 	<Item Name="Error Code to Error Cluster.vi" Type="VI" URL="../Error Code to Error Cluster.vi"/>
 	<Item Name="FGV Actor Enqueuer.vi" Type="VI" URL="../FGV Actor Enqueuer.vi"/>
 </Library>
