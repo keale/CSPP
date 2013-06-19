@@ -11,6 +11,14 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This library contains a collection of CS++ (Base-) Classes dealing with Pocess Variables.
 
+Errors:
+5000: PV URL does not match!
+5002: Invalöid PV Reference!
+
+Warnings:
+5001: PV already connected.
+
+
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
 Copyright 2013  GSI Helmholtzzentrum für Schwerionenforschung GmbH
@@ -50,4 +58,5 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="PV.lvclass" Type="LVClass" URL="../ProcessVariable/PV.lvclass"/>
 	<Item Name="PVConnection.lvclass" Type="LVClass" URL="../PVConnection/PVConnection.lvclass"/>
+	<Item Name="SVConnection.lvclass" Type="LVClass" URL="../SVConnection/SVConnection.lvclass"/>
 </Library>

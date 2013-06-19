@@ -50,6 +50,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
 		<Item Name="CS++PVUpdate Msg.lvclass" Type="LVClass" URL="../../CS++PVMonitor Messages/CS++PVUpdate Msg/CS++PVUpdate Msg.lvclass"/>
+		<Item Name="Register PVs Msg.lvclass" Type="LVClass" URL="../../CS++PVMonitor Messages/Register PVs Msg/Register PVs Msg.lvclass"/>
+		<Item Name="Unregister PVs Msg.lvclass" Type="LVClass" URL="../../CS++PVMonitor Messages/Unregister PVs Msg/Unregister PVs Msg.lvclass"/>
 	</Item>
 	<Item Name="CS++PVMonitor.lvclass" Type="LVClass" URL="../CS++PVMonitor.lvclass"/>
 </Library>
