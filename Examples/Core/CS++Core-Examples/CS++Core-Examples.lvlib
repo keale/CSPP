@@ -56,5 +56,4 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Example.lvclass" Type="LVClass" URL="../Classes/Example/Example.lvclass"/>
 		<Item Name="Reference Example.vi" Type="VI" URL="../Reference Example.vi"/>
 	</Item>
-	<Item Name="CS++Example.ini" Type="Document" URL="../../../../Core/CS++Example.ini"/>
 </Library>
