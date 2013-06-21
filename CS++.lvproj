@@ -22,6 +22,16 @@ Eine Kopie der Lizenz finden Sie hier: http://www.osor.eu/eupl
 Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher Form vereinbart, wird die unter der Lizenz verbreitete Software "so wie sie ist", OHNE JEGLICHE GEWÄHRLEISTUNG ODER BEDINGUNGEN - ausdrücklich oder stillschweigend - verbreitet.
 
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
+	<Property Name="varPersistentID:{209E04ED-842B-42CD-8AEB-9927E312212A}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_SelftestResultMessage</Property>
+	<Property Name="varPersistentID:{312591B2-0C86-4EF3-9FA7-C39EB6D19942}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_FirmwareRevision</Property>
+	<Property Name="varPersistentID:{6AEA9788-B5A2-4127-B120-568823481DBB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_ErrorCode</Property>
+	<Property Name="varPersistentID:{7A766E03-4274-4D22-9FC3-FD6A23CBD01E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDouble</Property>
+	<Property Name="varPersistentID:{831311DE-1569-4BF3-B05D-99680973F91C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_SelftestResultCode</Property>
+	<Property Name="varPersistentID:{C1BF85D6-20A7-4F31-93EB-18EB93C4BCF1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_DriverRevision</Property>
+	<Property Name="varPersistentID:{D156CC9F-AD52-43A6-AD01-2E1397FA6746}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_ResourceName</Property>
+	<Property Name="varPersistentID:{E2AA0B1B-D971-4D4B-8D88-D60152B011F1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myString</Property>
+	<Property Name="varPersistentID:{E5CA47C6-6353-4B01-BBB6-7451B651979E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_ErrorMessage</Property>
+	<Property Name="varPersistentID:{EC5EE1CE-CC84-4661-BBA2-4FFDE3072D7C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myBoolean</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -34,11 +44,18 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Actors" Type="Folder">
-				<Item Name="CS++BaseActor.lvlib" Type="Library" URL="../Core/Actors/CS++BaseActor/CS++BaseActor.lvlib"/>
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="CS++StartActor.lvlib" Type="Library" URL="../Core/Actors/CS++StartActor/CS++StartActor.lvlib"/>
+				<Item Name="CS++BaseActor.lvlib" Type="Library" URL="../Core/Actors/CS++BaseActor/CS++BaseActor.lvlib"/>
+				<Item Name="CS++PVMonitor.lvlib" Type="Library" URL="../Core/Actors/CS++PVMonitor/CS++PVMonitor.lvlib"/>
+				<Item Name="CS++SVMonitor.lvlib" Type="Library" URL="../Core/Actors/CS++SVMonitor/CS++SVMonitor.lvlib"/>
+				<Item Name="CS++ReservableActor.lvlib" Type="Library" URL="../Core/Actors/CS++Reservable/CS++ReservableActor.lvlib"/>
+				<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
+				<Item Name="CS++ControllerActor.lvlib" Type="Library" URL="../Core/Actors/CS++ControllerActor/CS++ControllerActor.lvlib"/>
 			</Item>
 			<Item Name="Classes" Type="Folder">
 				<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
+				<Item Name="CS++ProcessVariables.lvlib" Type="Library" URL="../Core/Classes/CS++ProcessVariables/CS++ProcessVariables.lvlib"/>
 			</Item>
 			<Item Name="Libraries" Type="Folder">
 				<Item Name="CS++Base.lvlib" Type="Library" URL="../Core/Libraries/Base/CS++Base.lvlib"/>
@@ -61,7 +78,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="CS++Core-Examples.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-Examples.lvlib"/>
+			<Item Name="CS++Core-ExampleSV.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-ExampleSV.lvlib"/>
 			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
+			<Item Name="PVClient-Example.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/Actors/PVClient-Example/PVClient-Example.lvlib"/>
 		</Item>
 		<Item Name="User" Type="Folder">
 			<Item Name="Syslog Collector Example.vi" Type="VI" URL="/&lt;userlib&gt;/syslog/examples/Syslog Collector Example.vi"/>
