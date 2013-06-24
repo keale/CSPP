@@ -54,7 +54,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Initialize Device Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Initialize Device Msg/Initialize Device Msg.lvclass"/>
 		<Item Name="Reset Device Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Reset Device Msg/Reset Device Msg.lvclass"/>
 		<Item Name="SelfTest Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/SelfTest Msg/SelfTest Msg.lvclass"/>
-		<Item Name="Launch DeviceGUI Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Launch DeviceGUI Msg/Launch DeviceGUI Msg.lvclass"/>
 	</Item>
 	<Item Name="Config.ini" Type="Document" URL="../Config.ini"/>
 	<Item Name="CS++DeviceActor.lvclass" Type="LVClass" URL="../CS++DeviceActor.lvclass"/>
