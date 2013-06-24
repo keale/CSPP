@@ -50,8 +50,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="CS++PVMonitor.lvlib" Type="Library" URL="../Core/Actors/CS++PVMonitor/CS++PVMonitor.lvlib"/>
 				<Item Name="CS++SVMonitor.lvlib" Type="Library" URL="../Core/Actors/CS++SVMonitor/CS++SVMonitor.lvlib"/>
 				<Item Name="CS++ReservableActor.lvlib" Type="Library" URL="../Core/Actors/CS++Reservable/CS++ReservableActor.lvlib"/>
-				<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
 				<Item Name="CS++ControllerActor.lvlib" Type="Library" URL="../Core/Actors/CS++ControllerActor/CS++ControllerActor.lvlib"/>
+				<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
+				<Item Name="CS++DeviceGUIActor.lvlib" Type="Library" URL="../Core/Actors/CS++DeviceGUIActor/CS++DeviceGUIActor.lvlib"/>
 			</Item>
 			<Item Name="Classes" Type="Folder">
 				<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
@@ -77,9 +78,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="CS++Example.ini" Type="Document" URL="../Core/CS++Example.ini"/>
+			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
 			<Item Name="CS++Core-Examples.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-Examples.lvlib"/>
 			<Item Name="CS++Core-ExampleSV.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-ExampleSV.lvlib"/>
-			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
 			<Item Name="PVClient-Example.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/Actors/PVClient-Example/PVClient-Example.lvlib"/>
 		</Item>
 		<Item Name="User" Type="Folder">
