@@ -50,6 +50,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Serialized ACL" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="After Launch Init Msg.lvclass" Type="LVClass" URL="../../CS++BaseActor Messages/After Launch Init Msg/After Launch Init Msg.lvclass">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Launch GUI Msg.lvclass" Type="LVClass" URL="../../CS++BaseActor Messages/Launch GUI Msg/Launch GUI Msg.lvclass"/>
 		<Item Name="Open Actor Core FP Msg.lvclass" Type="LVClass" URL="../../CS++BaseActor Messages/Open Actor Core FP Msg/Open Actor Core FP Msg.lvclass"/>
 	</Item>
