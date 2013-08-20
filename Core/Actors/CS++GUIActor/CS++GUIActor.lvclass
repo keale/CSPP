@@ -87,6 +87,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 	</Item>
 	<Item Name="protected" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Stop Core.vi" Type="VI" URL="../Stop Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%*!!!!"1!%!!!!3E"Q!"Y!!#E31V-L+U&gt;635&amp;D&gt;'^S,GRW&lt;'FC&amp;%.4+SN(65F"9X2P=CZM&gt;G.M98.T!":$5SML2'6W;7.F2V6*17.U&lt;X)A&lt;X6U!!!81!-!%':J&lt;G&amp;M)'6S=G^S)'.P:'5!!%B!=!!?!!!J%E.4+SN(65F"9X2P=CZM&gt;GRJ9B2$5SML2V6*17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!61V-L+U2F&gt;GFD:5&gt;635&amp;D&gt;'^S)'FO!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!Q!!?!!!!!!!!!!!!!!!!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!#1!!!!!!%!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -95,7 +96,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 	<Item Name="Actor Core.vit" Type="VI" URL="../Actor Core.vit">
