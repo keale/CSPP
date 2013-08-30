@@ -54,5 +54,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Register PVs Msg.lvclass" Type="LVClass" URL="../../CS++PVMonitor Messages/Register PVs Msg/Register PVs Msg.lvclass"/>
 		<Item Name="Unregister PVs Msg.lvclass" Type="LVClass" URL="../../CS++PVMonitor Messages/Unregister PVs Msg/Unregister PVs Msg.lvclass"/>
 	</Item>
+	<Item Name="CS++PVMonitor.ini" Type="Document" URL="../CS++PVMonitor.ini"/>
 	<Item Name="CS++PVMonitor.lvclass" Type="LVClass" URL="../CS++PVMonitor.lvclass"/>
 </Library>

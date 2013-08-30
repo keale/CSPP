@@ -49,5 +49,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="CS++SVMonitor.ini" Type="Document" URL="../CS++SVMonitor.ini"/>
 	<Item Name="CS++SVMonitor.lvclass" Type="LVClass" URL="../CS++SVMonitor.lvclass"/>
 </Library>

@@ -57,7 +57,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Config.ini" Type="Document" URL="../Config.ini"/>
+	<Item Name="CS++ProcessVariables.ini" Type="Document" URL="../CS++ProcessVariables.ini"/>
 	<Item Name="PV.lvclass" Type="LVClass" URL="../ProcessVariable/PV.lvclass"/>
 	<Item Name="PVConnection.lvclass" Type="LVClass" URL="../PVConnection/PVConnection.lvclass"/>
 	<Item Name="SVConnection.lvclass" Type="LVClass" URL="../SVConnection/SVConnection.lvclass"/>

@@ -52,5 +52,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Item Name="Messages" Type="Folder">
 		<Item Name="PVUpdate-myDouble Msg.lvclass" Type="LVClass" URL="../../PVClient-Example Messages/PVUpdate-myDouble Msg.lvclass"/>
 	</Item>
+	<Item Name="PVClient-Example.ini" Type="Document" URL="../PVClient-Example.ini"/>
 	<Item Name="PVClient-Example.lvclass" Type="LVClass" URL="../PVClient-Example.lvclass"/>
 </Library>

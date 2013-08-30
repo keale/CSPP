@@ -55,6 +55,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Reset Device Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Reset Device Msg/Reset Device Msg.lvclass"/>
 		<Item Name="SelfTest Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/SelfTest Msg/SelfTest Msg.lvclass"/>
 	</Item>
-	<Item Name="Config.ini" Type="Document" URL="../Config.ini"/>
+	<Item Name="CS++DeviceActor.ini" Type="Document" URL="../CS++DeviceActor.ini"/>
 	<Item Name="CS++DeviceActor.lvclass" Type="LVClass" URL="../CS++DeviceActor.lvclass"/>
 </Library>

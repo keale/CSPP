@@ -56,5 +56,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Launch GUI Msg.lvclass" Type="LVClass" URL="../../CS++BaseActor Messages/Launch GUI Msg/Launch GUI Msg.lvclass"/>
 		<Item Name="Open Actor Core FP Msg.lvclass" Type="LVClass" URL="../../CS++BaseActor Messages/Open Actor Core FP Msg/Open Actor Core FP Msg.lvclass"/>
 	</Item>
+	<Item Name="CS++BaseActor.ini" Type="Document" URL="../CS++BaseActor.ini"/>
 	<Item Name="CS++BaseActor.lvclass" Type="LVClass" URL="../CS++BaseActor.lvclass"/>
 </Library>
