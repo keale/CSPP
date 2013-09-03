@@ -44,5 +44,6 @@ Planckstr. 1, 64291 Darmstadt, Germany</Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="CS++DSCTrendViewer.ini" Type="Document" URL="../CS++DSCTrendViewer.ini"/>
 	<Item Name="CS++DSCTrendViewer.lvclass" Type="LVClass" URL="../CS++DSCTrendViewer.lvclass"/>
 </Library>

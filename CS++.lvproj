@@ -88,7 +88,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="CS++Example.ini" Type="Document" URL="../Core/CS++Example.ini"/>
+			<Item Name="CS++Example.ini" Type="Document" URL="../Examples/CS++Example.ini"/>
 			<Item Name="CS++ExampleContent.vi" Type="VI" URL="../Examples/CS++ExampleContent.vi"/>
 			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
 			<Item Name="CS++Core-Examples.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-Examples.lvlib"/>

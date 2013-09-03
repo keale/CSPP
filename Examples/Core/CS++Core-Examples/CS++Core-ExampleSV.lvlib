@@ -1,12 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
 	<Property Name="Alarm Database Computer" Type="Str">localhost</Property>
-	<Property Name="Alarm Database Name" Type="Str">C__Program_Files_National_Instruments_LabVIEW_2012_data</Property>
-	<Property Name="Alarm Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2012\data</Property>
-	<Property Name="Data Lifespan" Type="UInt">3650</Property>
+	<Property Name="Alarm Database Name" Type="Str">CSPP</Property>
+	<Property Name="Alarm Database Path" Type="Str">C:\User\Brand\DSC\CSPP</Property>
+	<Property Name="Data Lifespan" Type="UInt">30</Property>
 	<Property Name="Database Computer" Type="Str">localhost</Property>
-	<Property Name="Database Name" Type="Str">C__Program_Files_National_Instruments_LabVIEW_2012_data</Property>
-	<Property Name="Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2012\data</Property>
+	<Property Name="Database Name" Type="Str">CSPP</Property>
+	<Property Name="Database Path" Type="Str">C:\User\Brand\DSC\CSPP</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This library contains a collection of example-SVs illustration the usage of CS++ core classes and actors.
@@ -46,7 +46,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="OdbcReconnectTimeUnit" Type="Int">0</Property>
 	<Property Name="OdbcStringLoggingTableName" Type="Str">NI_VARIABLE_STRING</Property>
 	<Property Name="OdbcUsername" Type="Str"></Property>
-	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
+	<Property Name="SaveStatePeriod" Type="UInt">60</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="myBoolean" Type="Variable">
@@ -150,7 +150,53 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myDouble" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Alarming:BitArray:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Hi:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Area" Type="Str"></Property>
+		<Property Name="Alarming:Hi:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:Hi:Description" Type="Str"></Property>
+		<Property Name="Alarming:Hi:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Limit" Type="Str">75.000000</Property>
+		<Property Name="Alarming:Hi:Name" Type="Str">Hi</Property>
+		<Property Name="Alarming:Hi:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:HiHi:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:HiHi:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:HiHi:Area" Type="Str"></Property>
+		<Property Name="Alarming:HiHi:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:HiHi:Description" Type="Str"></Property>
+		<Property Name="Alarming:HiHi:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:HiHi:Limit" Type="Str">90.000000</Property>
+		<Property Name="Alarming:HiHi:Name" Type="Str">HiHi</Property>
+		<Property Name="Alarming:HiHi:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:Lo:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Lo:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Area" Type="Str"></Property>
+		<Property Name="Alarming:Lo:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:Lo:Description" Type="Str"></Property>
+		<Property Name="Alarming:Lo:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Limit" Type="Str">25.000000</Property>
+		<Property Name="Alarming:Lo:Name" Type="Str">Lo</Property>
+		<Property Name="Alarming:Lo:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:LoLo:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:LoLo:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:LoLo:Area" Type="Str"></Property>
+		<Property Name="Alarming:LoLo:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:LoLo:Description" Type="Str"></Property>
+		<Property Name="Alarming:LoLo:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:LoLo:Limit" Type="Str">10.000000</Property>
+		<Property Name="Alarming:LoLo:Name" Type="Str">LoLo</Property>
+		<Property Name="Alarming:LoLo:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:ROC:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="featurePacks" Type="Str">Alarming,Logging,Network</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
