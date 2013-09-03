@@ -53,7 +53,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="CS++ControllerActor.lvlib" Type="Library" URL="../Core/Actors/CS++ControllerActor/CS++ControllerActor.lvlib"/>
 				<Item Name="CS++DeviceActor.lvlib" Type="Library" URL="../Core/Actors/CS++DeviceActor/CS++DeviceActor.lvlib"/>
 				<Item Name="CS++GUIActor.lvlib" Type="Library" URL="../Core/Actors/CS++GUIActor/CS++GUIActor.lvlib"/>
-				<Item Name="CS++DSCTrendViewer.lvlib" Type="Library" URL="../Core/Actors/CS++DSCTrendViewer/CS++DSCTrendViewer.lvlib"/>
 			</Item>
 			<Item Name="Classes" Type="Folder">
 				<Item Name="CS++BaseClasses.lvlib" Type="Library" URL="../Core/Classes/CS++BaseClasses/CS++BaseClasses.lvlib"/>
@@ -75,6 +74,13 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="detspec.doc" Type="Document" URL="../Documentation/detspec.doc"/>
 				<Item Name="userman.doc" Type="Document" URL="../Documentation/userman.doc"/>
 			</Item>
+		</Item>
+		<Item Name="DSC" Type="Folder">
+			<Item Name="Actors" Type="Folder">
+				<Item Name="CS++DSCAlarmViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCAlarmViewer/CS++DSCAlarmViewer.lvlib"/>
+				<Item Name="CS++DSCTrendViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCTrendViewer/CS++DSCTrendViewer.lvlib"/>
+			</Item>
+			<Item Name="Classes" Type="Folder"/>
 		</Item>
 		<Item Name="EUPL License" Type="Folder">
 			<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
@@ -121,6 +127,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
