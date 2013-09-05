@@ -9,7 +9,7 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2012\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
-	<Property Name="NI.Lib.Description" Type="Str">This library contains the base class for device GUI actors.
+	<Property Name="NI.Lib.Description" Type="Str">This library contains the base class for GUI actors.
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
