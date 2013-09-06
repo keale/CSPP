@@ -42,6 +42,17 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AddOns" Type="Folder">
+			<Item Name="DIM" Type="Folder"/>
+			<Item Name="DSC" Type="Folder">
+				<Item Name="Actors" Type="Folder">
+					<Item Name="CS++DSCAlarmViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCAlarmViewer/CS++DSCAlarmViewer.lvlib"/>
+					<Item Name="CS++DSCTrendViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCTrendViewer/CS++DSCTrendViewer.lvlib"/>
+				</Item>
+				<Item Name="Classes" Type="Folder"/>
+				<Item Name="CS++DSCContent.vi" Type="VI" URL="../DSC/CS++DSCContent.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Actors" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -74,14 +85,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="detspec.doc" Type="Document" URL="../Documentation/detspec.doc"/>
 				<Item Name="userman.doc" Type="Document" URL="../Documentation/userman.doc"/>
 			</Item>
-		</Item>
-		<Item Name="DSC" Type="Folder">
-			<Item Name="Actors" Type="Folder">
-				<Item Name="CS++DSCAlarmViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCAlarmViewer/CS++DSCAlarmViewer.lvlib"/>
-				<Item Name="CS++DSCTrendViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCTrendViewer/CS++DSCTrendViewer.lvlib"/>
-			</Item>
-			<Item Name="Classes" Type="Folder"/>
-			<Item Name="CS++DSCContent.vi" Type="VI" URL="../DSC/CS++DSCContent.vi"/>
 		</Item>
 		<Item Name="EUPL License" Type="Folder">
 			<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
