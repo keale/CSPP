@@ -79,10 +79,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="CS++Devices" Type="Folder">
 			<Item Name="BaseClasses" Type="Folder"/>
 			<Item Name="IVI" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
 				<Item Name="IVI_ACPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_ACPwr/IVI_ACPwr.lvlib"/>
 				<Item Name="IVI_Counter.lvlib" Type="Library" URL="../Devices/IVI/IVI_Counter/IVI_Counter.lvlib"/>
 				<Item Name="IVI_DCPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_DCPwr/IVI_DCPwr.lvlib"/>
-				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
 				<Item Name="IVI_DMM.lvlib" Type="Library" URL="../Devices/IVI/IVI_DMM/IVI_DMM.lvlib"/>
 				<Item Name="IVI_Fgen.lvlib" Type="Library" URL="../Devices/IVI/IVI_Fgen/IVI_Fgen.lvlib"/>
 				<Item Name="IVI_PwrMeter.lvlib" Type="Library" URL="../Devices/IVI/IVI_PwrMeter/IVI_PwrMeter.lvlib"/>
@@ -219,6 +220,15 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IviPwrMeter Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Reset.vi"/>
 				<Item Name="IviPwrMeter Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Revision Query.vi"/>
 				<Item Name="IviPwrMeter Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Self-Test.vi"/>
+				<Item Name="IviScope Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Close.vi"/>
+				<Item Name="IviScope Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Error-Query.vi"/>
+				<Item Name="IviScope Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Initialize With Options.vi"/>
+				<Item Name="IviScope Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Initialize.vi"/>
+				<Item Name="IviScope IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope IVI Error Converter.vi"/>
+				<Item Name="IviScope Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Reset With Defaults.vi"/>
+				<Item Name="IviScope Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Reset.vi"/>
+				<Item Name="IviScope Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Revision Query.vi"/>
+				<Item Name="IviScope Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Self-Test.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -260,6 +270,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="IviPwrMeter.dll" Type="Document" URL="IviPwrMeter.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviScope.dll" Type="Document" URL="IviScope.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

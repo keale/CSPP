@@ -2,7 +2,7 @@
 <LVClass LVVersion="13008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">IVI_DMM.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../IVI_DMM.lvlib</Property>
-	<Property Name="NI.Lib.Description" Type="Str">This is the IVI DMM device actors.
+	<Property Name="NI.Lib.Description" Type="Str">This is the IVI Digital Multimeter device actors.
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 

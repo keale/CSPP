@@ -9,7 +9,7 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2013\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
-	<Property Name="NI.Lib.Description" Type="Str">This library contains the IVI DMM device actor.
+	<Property Name="NI.Lib.Description" Type="Str">This library contains the IVI Digital Multimeter device actor.
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
