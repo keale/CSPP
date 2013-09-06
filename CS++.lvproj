@@ -79,8 +79,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="CS++Devices" Type="Folder">
 			<Item Name="BaseClasses" Type="Folder"/>
 			<Item Name="IVI" Type="Folder">
-				<Item Name="IVI-DMM.lvlib" Type="Library" URL="../Devices/IVI/IVI_DMM/IVI-DMM.lvlib"/>
 				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
+				<Item Name="IVI_DMM.lvlib" Type="Library" URL="../Devices/IVI/IVI_DMM/IVI_DMM.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
