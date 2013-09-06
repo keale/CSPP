@@ -79,8 +79,14 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="CS++Devices" Type="Folder">
 			<Item Name="BaseClasses" Type="Folder"/>
 			<Item Name="IVI" Type="Folder">
+				<Item Name="IVI_ACPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_ACPwr/IVI_ACPwr.lvlib"/>
+				<Item Name="IVI_Counter.lvlib" Type="Library" URL="../Devices/IVI/IVI_Counter/IVI_Counter.lvlib"/>
+				<Item Name="IVI_DCPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_DCPwr/IVI_DCPwr.lvlib"/>
 				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
 				<Item Name="IVI_DMM.lvlib" Type="Library" URL="../Devices/IVI/IVI_DMM/IVI_DMM.lvlib"/>
+				<Item Name="IVI_Fgen.lvlib" Type="Library" URL="../Devices/IVI/IVI_Fgen/IVI_Fgen.lvlib"/>
+				<Item Name="IVI_PwrMeter.lvlib" Type="Library" URL="../Devices/IVI/IVI_PwrMeter/IVI_PwrMeter.lvlib"/>
+				<Item Name="IVI_Scope.lvlib" Type="Library" URL="../Devices/IVI/IVI_Scope/IVI_Scope.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
