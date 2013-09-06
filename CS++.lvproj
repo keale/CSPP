@@ -174,6 +174,15 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IviACPwr Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Reset.vi"/>
 				<Item Name="IviACPwr Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Revision Query.vi"/>
 				<Item Name="IviACPwr Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Self-Test.vi"/>
+				<Item Name="IviCounter Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Close.vi"/>
+				<Item Name="IviCounter Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Error-Query.vi"/>
+				<Item Name="IviCounter Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Initialize With Options.vi"/>
+				<Item Name="IviCounter Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Initialize.vi"/>
+				<Item Name="IviCounter IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter IVI Error Converter.vi"/>
+				<Item Name="IviCounter Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Reset With Defaults.vi"/>
+				<Item Name="IviCounter Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Reset.vi"/>
+				<Item Name="IviCounter Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Revision Query.vi"/>
+				<Item Name="IviCounter Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Self-Test.vi"/>
 				<Item Name="IviDmm Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Close.vi"/>
 				<Item Name="IviDmm Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Error-Query.vi"/>
 				<Item Name="IviDmm Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initialize With Options.vi"/>
@@ -209,6 +218,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="IviACPwr_ni.dll" Type="Document" URL="IviACPwr_ni.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviCounter_ni.dll" Type="Document" URL="IviCounter_ni.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="IviDmm.dll" Type="Document" URL="IviDmm.dll">
