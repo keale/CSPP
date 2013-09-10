@@ -77,7 +77,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="CS++CoreContent.vi" Type="VI" URL="../Core/CS++CoreContent.vi"/>
 		</Item>
 		<Item Name="CS++Devices" Type="Folder">
-			<Item Name="BaseClasses" Type="Folder"/>
+			<Item Name="BaseClasses" Type="Folder">
+				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
+			</Item>
 			<Item Name="IVI" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
@@ -194,18 +196,39 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IviDCPwr Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset.vi"/>
 				<Item Name="IviDCPwr Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Revision Query.vi"/>
 				<Item Name="IviDCPwr Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Self-Test.vi"/>
+				<Item Name="IviDmm Abort.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Abort.vi"/>
 				<Item Name="IviDmm Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Close.vi"/>
 				<Item Name="IviDmm Configure AC Bandwidth [AC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure AC Bandwidth [AC].vi"/>
+				<Item Name="IviDmm Configure Auto Zero Mode [AZ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Auto Zero Mode [AZ].vi"/>
+				<Item Name="IviDmm Configure Fixed Ref Junction [TC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Fixed Ref Junction [TC].vi"/>
 				<Item Name="IviDmm Configure Frequency Voltage Range [FRQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Frequency Voltage Range [FRQ].vi"/>
+				<Item Name="IviDmm Configure Meas Complete Dest [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Meas Complete Dest [MP].vi"/>
 				<Item Name="IviDmm Configure Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Measurement.vi"/>
+				<Item Name="IviDmm Configure Multi-Point [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Multi-Point [MP].vi"/>
+				<Item Name="IviDmm Configure Power Line Frequency [PLF].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Power Line Frequency [PLF].vi"/>
+				<Item Name="IviDmm Configure RTD [RTD].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure RTD [RTD].vi"/>
+				<Item Name="IviDmm Configure Thermistor [THM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Thermistor [THM].vi"/>
+				<Item Name="IviDmm Configure Thermocouple [TC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Thermocouple [TC].vi"/>
+				<Item Name="IviDmm Configure Transducer Type [TMP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Transducer Type [TMP].vi"/>
+				<Item Name="IviDmm Configure Trigger Slope [TS].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Trigger Slope [TS].vi"/>
+				<Item Name="IviDmm Configure Trigger.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Trigger.vi"/>
 				<Item Name="IviDmm Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Error-Query.vi"/>
+				<Item Name="IviDmm Fetch Multi-Point [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Fetch Multi-Point [MP].vi"/>
+				<Item Name="IviDmm Fetch.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Fetch.vi"/>
+				<Item Name="IviDmm Get Aperture Time Info [DI].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Get Aperture Time Info [DI].vi"/>
+				<Item Name="IviDmm Get Auto Range Value [ARV].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Get Auto Range Value [ARV].vi"/>
 				<Item Name="IviDmm Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initialize With Options.vi"/>
 				<Item Name="IviDmm Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initialize.vi"/>
+				<Item Name="IviDmm Initiate.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initiate.vi"/>
+				<Item Name="IviDmm Is Over-Range.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Is Over-Range.vi"/>
 				<Item Name="IviDmm IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm IVI Error Converter.vi"/>
+				<Item Name="IviDmm Read Multi-Point [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Read Multi-Point [MP].vi"/>
+				<Item Name="IviDmm Read.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Read.vi"/>
 				<Item Name="IviDmm Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Reset With Defaults.vi"/>
 				<Item Name="IviDmm Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Reset.vi"/>
 				<Item Name="IviDmm Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Revision Query.vi"/>
 				<Item Name="IviDmm Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Self-Test.vi"/>
+				<Item Name="IviDmm Send Software Trigger [SWT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Send Software Trigger [SWT].vi"/>
 				<Item Name="IviFgen Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Close.vi"/>
 				<Item Name="IviFgen Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Error-Query.vi"/>
 				<Item Name="IviFgen Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initialize With Options.vi"/>
