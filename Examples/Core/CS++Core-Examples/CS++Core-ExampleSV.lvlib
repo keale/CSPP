@@ -163,7 +163,33 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myDMM_ErrorCode" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Alarming:BitArray:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Hi:AllowLog" Type="Str">False</Property>
+		<Property Name="Alarming:Hi:Area" Type="Str"></Property>
+		<Property Name="Alarming:Hi:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:Hi:Description" Type="Str">Warning occurred</Property>
+		<Property Name="Alarming:Hi:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Limit" Type="Str">1.000000</Property>
+		<Property Name="Alarming:Hi:Name" Type="Str">Hi</Property>
+		<Property Name="Alarming:Hi:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:HiHi:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Lo:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Lo:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Area" Type="Str"></Property>
+		<Property Name="Alarming:Lo:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:Lo:Description" Type="Str">Error occurred</Property>
+		<Property Name="Alarming:Lo:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Limit" Type="Str">-1.000000</Property>
+		<Property Name="Alarming:Lo:Name" Type="Str">Lo</Property>
+		<Property Name="Alarming:Lo:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:LoLo:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:ROC:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="featurePacks" Type="Str">Alarming,Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
