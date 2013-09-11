@@ -244,7 +244,11 @@ Unit depend on measurement.</Property>
 		<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
