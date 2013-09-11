@@ -49,8 +49,27 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Abort Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Abort Msg/Abort Msg.lvclass"/>
+		<Item Name="Configure AC Bandwidth [AC] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure AC Bandwidth [AC] Msg/Configure AC Bandwidth [AC] Msg.lvclass"/>
+		<Item Name="Configure Auto Zero Mode [AZ] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Auto Zero Mode [AZ] Msg/Configure Auto Zero Mode [AZ] Msg.lvclass"/>
+		<Item Name="Configure Fixed Ref Junction [TC] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Fixed Ref Junction [TC] Msg/Configure Fixed Ref Junction [TC] Msg.lvclass"/>
+		<Item Name="Configure Frequency Voltage Range [FVR] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Frequency Voltage Range [FVR] Msg/Configure Frequency Voltage Range [FVR] Msg.lvclass"/>
+		<Item Name="Configure Meas Complete Dest [MP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Meas Complete Dest [MP] Msg/Configure Meas Complete Dest [MP] Msg.lvclass"/>
+		<Item Name="Configure Measurement Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Measurement Msg/Configure Measurement Msg.lvclass"/>
+		<Item Name="Configure Multi-Point [MP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Multi-Point [MP] Msg/Configure Multi-Point [MP] Msg.lvclass"/>
+		<Item Name="Configure Power Line Frequency [PLF] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Power Line Frequency [PLF] Msg/Configure Power Line Frequency [PLF] Msg.lvclass"/>
+		<Item Name="Configure RTD [RTD] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure RTD [RTD] Msg/Configure RTD [RTD] Msg.lvclass"/>
+		<Item Name="Configure Thermistor [THM] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Thermistor [THM] Msg/Configure Thermistor [THM] Msg.lvclass"/>
+		<Item Name="Configure Thermocouple [TC] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Thermocouple [TC] Msg/Configure Thermocouple [TC] Msg.lvclass"/>
+		<Item Name="Configure Tranducer Type [TMP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Tranducer Type [TMP] Msg/Configure Tranducer Type [TMP] Msg.lvclass"/>
+		<Item Name="Configure Trigger Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Trigger Msg/Configure Trigger Msg.lvclass"/>
+		<Item Name="Configure Trigger Slope [TS] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Configure Trigger Slope [TS] Msg/Configure Trigger Slope [TS] Msg.lvclass"/>
+		<Item Name="Fetch Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Fetch Msg/Fetch Msg.lvclass"/>
+		<Item Name="Fetch Multi-Point [MP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Fetch Multi-Point [MP] Msg/Fetch Multi-Point [MP] Msg.lvclass"/>
+		<Item Name="Initiate Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Initiate Msg/Initiate Msg.lvclass"/>
 		<Item Name="Read Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Msg/Read Msg.lvclass"/>
 		<Item Name="Read Multi-Point [MP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Multi-Point [MP] Msg/Read Multi-Point [MP] Msg.lvclass"/>
+		<Item Name="Send Software Trigger Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Send Software Trigger Msg/Send Software Trigger Msg.lvclass"/>
 	</Item>
 	<Item Name="CS++DMM.lvclass" Type="LVClass" URL="../CS++DMM.lvclass"/>
 </Library>
