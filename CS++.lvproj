@@ -87,6 +87,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 		<Item Name="CS++Devices" Type="Folder">
 			<Item Name="BaseClasses" Type="Folder">
+				<Item Name="CS++DCPwr.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwr/CS++DCPwr.lvlib"/>
 				<Item Name="CS++DeviceBase-Content.vi" Type="VI" URL="../Devices/Base/CS++DeviceBase-Content.vi"/>
 				<Item Name="CS++Devices.ini" Type="Document" URL="../Devices/Base/CS++Devices.ini"/>
 				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
@@ -201,16 +202,32 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IviCounter Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Reset.vi"/>
 				<Item Name="IviCounter Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Revision Query.vi"/>
 				<Item Name="IviCounter Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Self-Test.vi"/>
+				<Item Name="IviDCPwr Abort [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Abort [TRG].vi"/>
 				<Item Name="IviDCPwr Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Close.vi"/>
+				<Item Name="IviDCPwr Configure Current Limit.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Current Limit.vi"/>
 				<Item Name="IviDCPwr Configure Output Enabled.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Output Enabled.vi"/>
+				<Item Name="IviDCPwr Configure Output Range.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Output Range.vi"/>
+				<Item Name="IviDCPwr Configure OVP.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure OVP.vi"/>
+				<Item Name="IviDCPwr Configure Trigger Source [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Trigger Source [TRG].vi"/>
+				<Item Name="IviDCPwr Configure Triggered Current Limit [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Triggered Current Limit [TRG].vi"/>
+				<Item Name="IviDCPwr Configure Triggered Voltage Level [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Triggered Voltage Level [TRG].vi"/>
+				<Item Name="IviDCPwr Configure Voltage Level.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Voltage Level.vi"/>
 				<Item Name="IviDCPwr Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Error-Query.vi"/>
+				<Item Name="IviDCPwr Get Channel Name.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Get Channel Name.vi"/>
 				<Item Name="IviDCPwr Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initialize With Options.vi"/>
 				<Item Name="IviDCPwr Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initialize.vi"/>
+				<Item Name="IviDCPwr Initiate [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initiate [TRG].vi"/>
 				<Item Name="IviDCPwr IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr IVI Error Converter.vi"/>
+				<Item Name="IviDCPwr Measure [MSR].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Measure [MSR].vi"/>
+				<Item Name="IviDCPwr Query Max Current Limit.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Query Max Current Limit.vi"/>
+				<Item Name="IviDCPwr Query Max Voltage Level.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Query Max Voltage Level.vi"/>
+				<Item Name="IviDCPwr Query Output State.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Query Output State.vi"/>
+				<Item Name="IviDCPwr Reset Output Protection.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset Output Protection.vi"/>
 				<Item Name="IviDCPwr Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset With Defaults.vi"/>
 				<Item Name="IviDCPwr Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset.vi"/>
 				<Item Name="IviDCPwr Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Revision Query.vi"/>
 				<Item Name="IviDCPwr Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Self-Test.vi"/>
+				<Item Name="IviDCPwr Send Software Trigger [SWT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Send Software Trigger [SWT].vi"/>
 				<Item Name="IviDmm Abort.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Abort.vi"/>
 				<Item Name="IviDmm Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Close.vi"/>
 				<Item Name="IviDmm Configure AC Bandwidth [AC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure AC Bandwidth [AC].vi"/>
