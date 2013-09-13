@@ -23,24 +23,31 @@ Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher
 
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
 	<Property Name="varPersistentID:{209E04ED-842B-42CD-8AEB-9927E312212A}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_SelftestResultMessage</Property>
+	<Property Name="varPersistentID:{26A4688E-5E7A-4375-8C4A-916A7A5C38C1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_SelftestResultCode</Property>
 	<Property Name="varPersistentID:{312591B2-0C86-4EF3-9FA7-C39EB6D19942}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_FirmwareRevision</Property>
 	<Property Name="varPersistentID:{384FE696-4F79-4017-B005-A607BA606172}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_SelftestResultCode</Property>
 	<Property Name="varPersistentID:{3C649A39-9A7C-4F47-A5B1-0BCC60EC5015}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_MPReading</Property>
+	<Property Name="varPersistentID:{5D399AF7-995E-4EC7-A31A-F1DDD3BDE72C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_ResourceName</Property>
 	<Property Name="varPersistentID:{67F9A10B-3983-4F15-B33A-35B8B7603498}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_FirmwareRevision</Property>
 	<Property Name="varPersistentID:{6AEA9788-B5A2-4127-B120-568823481DBB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_ErrorCode</Property>
+	<Property Name="varPersistentID:{6C3C397B-1CA7-496E-AA20-6B551117CC12}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_FirmwareRevision</Property>
 	<Property Name="varPersistentID:{6DEAC549-A761-4192-9244-1B1A6F7150D0}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_ErrorMessage</Property>
 	<Property Name="varPersistentID:{7A766E03-4274-4D22-9FC3-FD6A23CBD01E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDouble</Property>
 	<Property Name="varPersistentID:{7F2179C9-C8FE-43F8-8915-FC7595C7EF90}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_ResourceName</Property>
 	<Property Name="varPersistentID:{831311DE-1569-4BF3-B05D-99680973F91C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_SelftestResultCode</Property>
+	<Property Name="varPersistentID:{8A05A114-85DD-4408-82E4-1390534F55B2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_ErrorMessage</Property>
+	<Property Name="varPersistentID:{A52A8305-5456-43FF-B78E-F3535E070765}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_SelftestResultMessage</Property>
 	<Property Name="varPersistentID:{B198AF19-248B-4075-A199-0518C6AC8DC6}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_Reading</Property>
 	<Property Name="varPersistentID:{C1BF85D6-20A7-4F31-93EB-18EB93C4BCF1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_DriverRevision</Property>
 	<Property Name="varPersistentID:{C9F95FE0-43CE-49DE-B0F2-3EED69D29137}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_SelftestResultMessage</Property>
 	<Property Name="varPersistentID:{D156CC9F-AD52-43A6-AD01-2E1397FA6746}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_ResourceName</Property>
 	<Property Name="varPersistentID:{E2AA0B1B-D971-4D4B-8D88-D60152B011F1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myString</Property>
 	<Property Name="varPersistentID:{E5CA47C6-6353-4B01-BBB6-7451B651979E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor_ErrorMessage</Property>
+	<Property Name="varPersistentID:{E6794C86-F830-4B52-923E-F0A8B85553BB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_DriverRevision</Property>
 	<Property Name="varPersistentID:{E9E45C75-40A4-4703-934E-573BEAC0727F}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_ErrorCode</Property>
 	<Property Name="varPersistentID:{EC5EE1CE-CC84-4661-BBA2-4FFDE3072D7C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myBoolean</Property>
 	<Property Name="varPersistentID:{F3F931EF-6630-4830-AE74-A3C54F991BAC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM_DriverRevision</Property>
+	<Property Name="varPersistentID:{FC14FA1C-B04A-4895-93EF-DF1F1A4872B2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr_ErrorCode</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>

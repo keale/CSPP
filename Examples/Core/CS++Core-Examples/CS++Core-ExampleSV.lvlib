@@ -73,7 +73,33 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myCS++DeviceActor_ErrorCode" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Hi:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Area" Type="Str">CS++Example</Property>
+		<Property Name="Alarming:Hi:Deadband" Type="Str">0.01</Property>
+		<Property Name="Alarming:Hi:Description" Type="Str">Warning occurred</Property>
+		<Property Name="Alarming:Hi:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Limit" Type="Str">1</Property>
+		<Property Name="Alarming:Hi:Name" Type="Str">HI</Property>
+		<Property Name="Alarming:Hi:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:HiHi:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Lo:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Lo:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Area" Type="Str">CS++Example</Property>
+		<Property Name="Alarming:Lo:Deadband" Type="Str">0.01</Property>
+		<Property Name="Alarming:Lo:Description" Type="Str">Error occurred</Property>
+		<Property Name="Alarming:Lo:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Limit" Type="Str">-1</Property>
+		<Property Name="Alarming:Lo:Name" Type="Str">LO</Property>
+		<Property Name="Alarming:Lo:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:LoLo:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:ROC:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="featurePacks" Type="Str">Network,Alarming</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -150,6 +176,123 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="myDCPwr_DriverRevision" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDCPwr_ErrorCode" Type="Variable">
+		<Property Name="Alarming:BitArray:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Hi:AllowLog" Type="Str">False</Property>
+		<Property Name="Alarming:Hi:Area" Type="Str">CS++Example</Property>
+		<Property Name="Alarming:Hi:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:Hi:Description" Type="Str">Warning occurred</Property>
+		<Property Name="Alarming:Hi:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Limit" Type="Str">1.000000</Property>
+		<Property Name="Alarming:Hi:Name" Type="Str">Hi</Property>
+		<Property Name="Alarming:Hi:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:HiHi:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Lo:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Lo:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Area" Type="Str">CS++Example</Property>
+		<Property Name="Alarming:Lo:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Alarming:Lo:Description" Type="Str">Error occurred</Property>
+		<Property Name="Alarming:Lo:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Lo:Limit" Type="Str">-1.000000</Property>
+		<Property Name="Alarming:Lo:Name" Type="Str">Lo</Property>
+		<Property Name="Alarming:Lo:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:LoLo:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:ROC:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="featurePacks" Type="Str">Alarming,Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDCPwr_ErrorMessage" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDCPwr_FirmwareRevision" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDCPwr_ResourceName" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDCPwr_SelftestResultCode" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDCPwr_SelftestResultMessage" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="myDMM_DriverRevision" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -170,7 +313,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="Alarming:Hi:AckType" Type="Str">Auto</Property>
 		<Property Name="Alarming:Hi:AllowLog" Type="Str">False</Property>
-		<Property Name="Alarming:Hi:Area" Type="Str"></Property>
+		<Property Name="Alarming:Hi:Area" Type="Str">CS++Example</Property>
 		<Property Name="Alarming:Hi:Deadband" Type="Str">0.010000</Property>
 		<Property Name="Alarming:Hi:Description" Type="Str">Warning occurred</Property>
 		<Property Name="Alarming:Hi:Enabled" Type="Str">True</Property>
@@ -180,7 +323,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="Alarming:HiHi:Enabled" Type="Str">False</Property>
 		<Property Name="Alarming:Lo:AckType" Type="Str">Auto</Property>
 		<Property Name="Alarming:Lo:AllowLog" Type="Str">True</Property>
-		<Property Name="Alarming:Lo:Area" Type="Str"></Property>
+		<Property Name="Alarming:Lo:Area" Type="Str">CS++Example</Property>
 		<Property Name="Alarming:Lo:Deadband" Type="Str">0.010000</Property>
 		<Property Name="Alarming:Lo:Description" Type="Str">Error occurred</Property>
 		<Property Name="Alarming:Lo:Enabled" Type="Str">True</Property>
@@ -249,12 +392,13 @@ Unit depend on measurement.</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -304,36 +448,36 @@ Unit depend on measurement.</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="Alarming:Hi:AckType" Type="Str">Auto</Property>
 		<Property Name="Alarming:Hi:AllowLog" Type="Str">True</Property>
-		<Property Name="Alarming:Hi:Area" Type="Str"></Property>
+		<Property Name="Alarming:Hi:Area" Type="Str">CS++Example</Property>
 		<Property Name="Alarming:Hi:Deadband" Type="Str">0.010000</Property>
-		<Property Name="Alarming:Hi:Description" Type="Str"></Property>
+		<Property Name="Alarming:Hi:Description" Type="Str">Value is high</Property>
 		<Property Name="Alarming:Hi:Enabled" Type="Str">True</Property>
 		<Property Name="Alarming:Hi:Limit" Type="Str">75.000000</Property>
 		<Property Name="Alarming:Hi:Name" Type="Str">Hi</Property>
 		<Property Name="Alarming:Hi:Priority" Type="Str">1</Property>
 		<Property Name="Alarming:HiHi:AckType" Type="Str">Auto</Property>
 		<Property Name="Alarming:HiHi:AllowLog" Type="Str">True</Property>
-		<Property Name="Alarming:HiHi:Area" Type="Str"></Property>
+		<Property Name="Alarming:HiHi:Area" Type="Str">CS++Example</Property>
 		<Property Name="Alarming:HiHi:Deadband" Type="Str">0.010000</Property>
-		<Property Name="Alarming:HiHi:Description" Type="Str"></Property>
+		<Property Name="Alarming:HiHi:Description" Type="Str">Value too high</Property>
 		<Property Name="Alarming:HiHi:Enabled" Type="Str">True</Property>
 		<Property Name="Alarming:HiHi:Limit" Type="Str">90.000000</Property>
 		<Property Name="Alarming:HiHi:Name" Type="Str">HiHi</Property>
 		<Property Name="Alarming:HiHi:Priority" Type="Str">1</Property>
 		<Property Name="Alarming:Lo:AckType" Type="Str">Auto</Property>
 		<Property Name="Alarming:Lo:AllowLog" Type="Str">True</Property>
-		<Property Name="Alarming:Lo:Area" Type="Str"></Property>
+		<Property Name="Alarming:Lo:Area" Type="Str">CS++Example</Property>
 		<Property Name="Alarming:Lo:Deadband" Type="Str">0.010000</Property>
-		<Property Name="Alarming:Lo:Description" Type="Str"></Property>
+		<Property Name="Alarming:Lo:Description" Type="Str">Value is low</Property>
 		<Property Name="Alarming:Lo:Enabled" Type="Str">True</Property>
 		<Property Name="Alarming:Lo:Limit" Type="Str">25.000000</Property>
 		<Property Name="Alarming:Lo:Name" Type="Str">Lo</Property>
 		<Property Name="Alarming:Lo:Priority" Type="Str">1</Property>
 		<Property Name="Alarming:LoLo:AckType" Type="Str">Auto</Property>
 		<Property Name="Alarming:LoLo:AllowLog" Type="Str">True</Property>
-		<Property Name="Alarming:LoLo:Area" Type="Str"></Property>
+		<Property Name="Alarming:LoLo:Area" Type="Str">CS++Example</Property>
 		<Property Name="Alarming:LoLo:Deadband" Type="Str">0.010000</Property>
-		<Property Name="Alarming:LoLo:Description" Type="Str"></Property>
+		<Property Name="Alarming:LoLo:Description" Type="Str">Value too low</Property>
 		<Property Name="Alarming:LoLo:Enabled" Type="Str">True</Property>
 		<Property Name="Alarming:LoLo:Limit" Type="Str">10.000000</Property>
 		<Property Name="Alarming:LoLo:Name" Type="Str">LoLo</Property>
