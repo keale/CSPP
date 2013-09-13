@@ -103,6 +103,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IVI_Fgen.lvlib" Type="Library" URL="../Devices/IVI/IVI_Fgen/IVI_Fgen.lvlib"/>
 				<Item Name="IVI_PwrMeter.lvlib" Type="Library" URL="../Devices/IVI/IVI_PwrMeter/IVI_PwrMeter.lvlib"/>
 				<Item Name="IVI_Scope.lvlib" Type="Library" URL="../Devices/IVI/IVI_Scope/IVI_Scope.lvlib"/>
+				<Item Name="MAX_IVIconfigData.nce" Type="Document" URL="../Devices/IVI/MAX_IVIconfigData.nce"/>
 			</Item>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
@@ -201,6 +202,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IviCounter Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Revision Query.vi"/>
 				<Item Name="IviCounter Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Self-Test.vi"/>
 				<Item Name="IviDCPwr Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Close.vi"/>
+				<Item Name="IviDCPwr Configure Output Enabled.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Output Enabled.vi"/>
 				<Item Name="IviDCPwr Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Error-Query.vi"/>
 				<Item Name="IviDCPwr Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initialize With Options.vi"/>
 				<Item Name="IviDCPwr Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initialize.vi"/>
