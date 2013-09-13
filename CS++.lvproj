@@ -94,9 +94,10 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 		<Item Name="CS++Devices" Type="Folder">
 			<Item Name="BaseClasses" Type="Folder">
-				<Item Name="CS++DCPwr.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwr/CS++DCPwr.lvlib"/>
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="CS++DeviceBase-Content.vi" Type="VI" URL="../Devices/Base/CS++DeviceBase-Content.vi"/>
 				<Item Name="CS++Devices.ini" Type="Document" URL="../Devices/Base/CS++Devices.ini"/>
+				<Item Name="CS++DCPwr.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwr/CS++DCPwr.lvlib"/>
 				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
 				<Item Name="CS++DMMGui.lvlib" Type="Library" URL="../Devices/Base/CS++DMMGui/CS++DMMGui.lvlib"/>
 			</Item>
