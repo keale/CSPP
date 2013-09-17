@@ -85,7 +85,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 				</Item>
 				<Item Name="Get Auto Range Value [ARV].vi" Type="VI" URL="../Get Auto Range Value [ARV].vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Y!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!-97.U&gt;7&amp;M)(*B&lt;G&gt;F!!!U1(!!(A!!(QV$5SML2%V.,GRW&lt;'FC$U.4+SN%45UO&lt;(:D&lt;'&amp;T=Q!,1V-L+U2.43"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!U1(!!(A!!(QV$5SML2%V.,GRW&lt;'FC$U.4+SN%45UO&lt;(:D&lt;'&amp;T=Q!+1V-L+U2.43"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
@@ -94,7 +94,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 				</Item>
 			</Item>
 			<Item Name="Multi-Point" Type="Folder">
