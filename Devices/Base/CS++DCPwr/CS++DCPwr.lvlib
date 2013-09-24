@@ -51,23 +51,31 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Get Channel Name Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Get Channel Name Msg/Get Channel Name Msg.lvclass"/>
-		<Item Name="Configure Current Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Current Limit Msg/Configure Current Limit Msg.lvclass"/>
-		<Item Name="Configure Output Enable Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Output Enable Msg/Configure Output Enable Msg.lvclass"/>
-		<Item Name="Configure Output Range Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Output Range Msg/Configure Output Range Msg.lvclass"/>
-		<Item Name="Configure OVP Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure OVP Msg/Configure OVP Msg.lvclass"/>
-		<Item Name="Configure Trigger Source [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Trigger Source [TRG] Msg/Configure Trigger Source [TRG] Msg.lvclass"/>
-		<Item Name="Configure Triggered Current Limit [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Triggered Current Limit [TRG] Msg/Configure Triggered Current Limit [TRG] Msg.lvclass"/>
-		<Item Name="Configure Triggered Voltage Level [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Triggered Voltage Level [TRG] Msg/Configure Triggered Voltage Level [TRG] Msg.lvclass"/>
-		<Item Name="Configure Voltage Level Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Voltage Level Msg/Configure Voltage Level Msg.lvclass"/>
-		<Item Name="Initiate [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Initiate [TRG] Msg/Initiate [TRG] Msg.lvclass"/>
-		<Item Name="Abort [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Abort [TRG] Msg/Abort [TRG] Msg.lvclass"/>
-		<Item Name="Send Software Trigger [SWT] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Send Software Trigger [SWT] Msg/Send Software Trigger [SWT] Msg.lvclass"/>
-		<Item Name="Reset Output Protection Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Reset Output Protection Msg/Reset Output Protection Msg.lvclass"/>
-		<Item Name="Measure [MSR] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Measure [MSR] Msg/Measure [MSR] Msg.lvclass"/>
-		<Item Name="Query Max Current Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Current Limit Msg/Query Max Current Limit Msg.lvclass"/>
-		<Item Name="Query Max Voltage Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Voltage Limit Msg/Query Max Voltage Limit Msg.lvclass"/>
-		<Item Name="Query Output State Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Output State Msg/Query Output State Msg.lvclass"/>
+		<Item Name="Configure" Type="Folder">
+			<Item Name="Configure Output Enable Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Output Enable Msg/Configure Output Enable Msg.lvclass"/>
+			<Item Name="Configure Output Range Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Output Range Msg/Configure Output Range Msg.lvclass"/>
+			<Item Name="Configure Current Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Current Limit Msg/Configure Current Limit Msg.lvclass"/>
+			<Item Name="Configure OVP Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure OVP Msg/Configure OVP Msg.lvclass"/>
+			<Item Name="Configure Voltage Level Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Voltage Level Msg/Configure Voltage Level Msg.lvclass"/>
+		</Item>
+		<Item Name="Trigger" Type="Folder">
+			<Item Name="Configure Trigger Source [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Trigger Source [TRG] Msg/Configure Trigger Source [TRG] Msg.lvclass"/>
+			<Item Name="Configure Triggered Voltage Level [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Triggered Voltage Level [TRG] Msg/Configure Triggered Voltage Level [TRG] Msg.lvclass"/>
+			<Item Name="Configure Triggered Current Limit [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Configure Triggered Current Limit [TRG] Msg/Configure Triggered Current Limit [TRG] Msg.lvclass"/>
+		</Item>
+		<Item Name="Output" Type="Folder">
+			<Item Name="Initiate [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Initiate [TRG] Msg/Initiate [TRG] Msg.lvclass"/>
+			<Item Name="Abort [TRG] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Abort [TRG] Msg/Abort [TRG] Msg.lvclass"/>
+			<Item Name="Send Software Trigger [SWT] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Send Software Trigger [SWT] Msg/Send Software Trigger [SWT] Msg.lvclass"/>
+			<Item Name="Reset Output Protection Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Reset Output Protection Msg/Reset Output Protection Msg.lvclass"/>
+			<Item Name="Measure [MSR] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Measure [MSR] Msg/Measure [MSR] Msg.lvclass"/>
+		</Item>
+		<Item Name="Action/Status" Type="Folder">
+			<Item Name="Query Max Current Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Current Limit Msg/Query Max Current Limit Msg.lvclass"/>
+			<Item Name="Query Max Voltage Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Voltage Limit Msg/Query Max Voltage Limit Msg.lvclass"/>
+			<Item Name="Query Output State Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Output State Msg/Query Output State Msg.lvclass"/>
+			<Item Name="Get Channel Name Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Get Channel Name Msg/Get Channel Name Msg.lvclass"/>
+		</Item>
 	</Item>
 	<Item Name="CS++DCPwr.lvclass" Type="LVClass" URL="../CS++DCPwr.lvclass"/>
 </Library>
