@@ -53,7 +53,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Initialize Device Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Initialize Device Msg/Initialize Device Msg.lvclass"/>
 		<Item Name="Reset Device Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Reset Device Msg/Reset Device Msg.lvclass"/>
-		<Item Name="SelfTest Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/SelfTest Msg/SelfTest Msg.lvclass"/>
+		<Item Name="Selftest Device Msg.lvclass" Type="LVClass" URL="../../CS++DeviceActor Messages/Selftest Device Msg/Selftest Device Msg.lvclass"/>
 	</Item>
 	<Item Name="CS++DeviceActor.ini" Type="Document" URL="../CS++DeviceActor.ini"/>
 	<Item Name="CS++DeviceActor.lvclass" Type="LVClass" URL="../CS++DeviceActor.lvclass"/>
