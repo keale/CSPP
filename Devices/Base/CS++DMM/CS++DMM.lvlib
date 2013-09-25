@@ -85,8 +85,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="Initiate Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Initiate Msg/Initiate Msg.lvclass"/>
 				<Item Name="Send Software Trigger Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Send Software Trigger Msg/Send Software Trigger Msg.lvclass"/>
 			</Item>
-			<Item Name="Read Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Msg/Read Msg.lvclass"/>
 			<Item Name="Read Multi-Point [MP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Multi-Point [MP] Msg/Read Multi-Point [MP] Msg.lvclass"/>
+			<Item Name="Read Single-Point Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Single-Point Msg/Read Single-Point Msg.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="CS++DMM.lvclass" Type="LVClass" URL="../CS++DMM.lvclass"/>

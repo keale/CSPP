@@ -355,6 +355,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="IviScope.dll" Type="Document" URL="IviScope.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Measure [MSR] Msg.lvclass" Type="LVClass" URL="../Devices/Base/CS++DCPwr Messages/Measure [MSR] Msg/Measure [MSR] Msg.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CSPP Application" Type="EXE">
