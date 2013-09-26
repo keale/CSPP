@@ -363,10 +363,14 @@ Unit depend on measurement.</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myDCPwr_OutputState_0" Type="Variable">
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
 		<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network,Alarming</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -381,10 +385,14 @@ Unit depend on measurement.</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myDCPwr_OutputState_1" Type="Variable">
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
 		<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network,Alarming</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -399,10 +407,14 @@ Unit depend on measurement.</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myDCPwr_OutputState_2" Type="Variable">
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
 		<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network,Alarming</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>

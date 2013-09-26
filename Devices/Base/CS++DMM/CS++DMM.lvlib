@@ -88,7 +88,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="Read Multi-Point [MP] Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Multi-Point [MP] Msg/Read Multi-Point [MP] Msg.lvclass"/>
 			<Item Name="Read Single-Point Msg.lvclass" Type="LVClass" URL="../../CS++DMM Messages/Read Single-Point Msg/Read Single-Point Msg.lvclass"/>
 		</Item>
-		<Item Name="Measure [MSR] Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Measure [MSR] Msg/Measure [MSR] Msg.lvclass"/>
 	</Item>
 	<Item Name="CS++DMM.lvclass" Type="LVClass" URL="../CS++DMM.lvclass"/>
 </Library>
