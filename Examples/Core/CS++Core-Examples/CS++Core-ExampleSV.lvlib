@@ -533,6 +533,36 @@ Unit depend on measurement.</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="myDMM_IsOverRange" Type="Variable">
+		<Property Name="Alarming:BitArray:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Boolean:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Boolean:AlarmOn" Type="Str">High</Property>
+		<Property Name="Alarming:Boolean:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Boolean:Area" Type="Str"></Property>
+		<Property Name="Alarming:Boolean:Description" Type="Str">Over Range</Property>
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Boolean:Name" Type="Str">Boolean</Property>
+		<Property Name="Alarming:Boolean:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Hi:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:HiHi:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Lo:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:LoLo:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:ROC:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="featurePacks" Type="Str">Alarming,Logging,Network</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="myDMM_MPReading" Type="Variable">
 		<Property Name="Description:Description" Type="Str">Measurement value.
 
