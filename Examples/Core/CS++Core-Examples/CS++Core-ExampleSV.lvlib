@@ -467,6 +467,16 @@ Unit depend on measurement.</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="myDMM_AbsoluteResolution" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="myDMM_DriverRevision" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -575,6 +585,29 @@ Unit depend on measurement.</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="myDMM_MeasurementFunction" Type="Variable">
+		<Property Name="Description:Description" Type="Str">Valid Values:
+IVIDMM_VAL_DC_VOLTS           - DC Volts
+IVIDMM_VAL_AC_VOLTS           - AC Volts
+IVIDMM_VAL_DC_CURRENT         - DC Current
+IVIDMM_VAL_AC_CURRENT         - AC Current
+IVIDMM_VAL_2_WIRE_RES         - 2-Wire Resistance
+IVIDMM_VAL_4_WIRE_RES         - 4-Wire Resistance
+IVIDMM_VAL_AC_PLUS_DC_VOLTS   - AC plus DC Volts
+IVIDMM_VAL_AC_PLUS_DC_CURRENT - AC plus DC Current
+IVIDMM_VAL_FREQ               - Frequency
+IVIDMM_VAL_PERIOD             - Period
+IVIDMM_VAL_TEMPERATURE        - Temperature (C)
+</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="myDMM_MPReading" Type="Variable">
 		<Property Name="Description:Description" Type="Str">Measurement value.
 
@@ -587,6 +620,16 @@ Unit depend on measurement.</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"-!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="myDMM_Range" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="myDMM_Reading" Type="Variable">
 		<Property Name="Description:Description" Type="Str">Measurement value.
