@@ -57,6 +57,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="UpdateIsOverRange Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateIsOverRange/UpdateIsOverRange Msg.lvclass"/>
 		<Item Name="UpdateMeasurementFunction Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateMeasurementFunction/UpdateMeasurementFunction Msg.lvclass"/>
 		<Item Name="UpdateAbsoluteResolution Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateAbsoluteResolution/UpdateAbsoluteResolution Msg.lvclass"/>
+		<Item Name="UpdatePV.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdatePV/UpdatePV.lvclass"/>
 	</Item>
 	<Item Name="CS++DMMGui.lvclass" Type="LVClass" URL="../CS++DMMGui.lvclass"/>
 </Library>
