@@ -51,12 +51,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="UpdateRange Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateRange/UpdateRange Msg.lvclass"/>
-		<Item Name="UpdateReading Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateReading/UpdateReading Msg.lvclass"/>
-		<Item Name="UpdateMPReading Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateMPReading/UpdateMPReading Msg.lvclass"/>
-		<Item Name="UpdateIsOverRange Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateIsOverRange/UpdateIsOverRange Msg.lvclass"/>
-		<Item Name="UpdateMeasurementFunction Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateMeasurementFunction/UpdateMeasurementFunction Msg.lvclass"/>
-		<Item Name="UpdateAbsoluteResolution Msg.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdateAbsoluteResolution/UpdateAbsoluteResolution Msg.lvclass"/>
 		<Item Name="UpdatePV.lvclass" Type="LVClass" URL="../../CS++DMMGui Messages/UpdatePV/UpdatePV.lvclass"/>
 	</Item>
 	<Item Name="CS++DMMGui.lvclass" Type="LVClass" URL="../CS++DMMGui.lvclass"/>
