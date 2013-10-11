@@ -11,6 +11,8 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This library contains the CS++ Digital Multimeter device actor.
 
+Published PVs are using SI units.
+
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
 Copyright 2013  GSI Helmholtzzentrum für Schwerionenforschung GmbH
