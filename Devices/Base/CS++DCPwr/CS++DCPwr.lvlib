@@ -53,7 +53,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Action/Status" Type="Folder">
 			<Item Name="Get Channel Name Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Get Channel Name Msg/Get Channel Name Msg.lvclass"/>
 			<Item Name="Query Max Current Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Current Limit Msg/Query Max Current Limit Msg.lvclass"/>
-			<Item Name="Query Max Voltage Limit Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Voltage Limit Msg/Query Max Voltage Limit Msg.lvclass"/>
+			<Item Name="Query Max Voltage Level Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Max Voltage Level Msg/Query Max Voltage Level Msg.lvclass"/>
 			<Item Name="Query Output State Msg.lvclass" Type="LVClass" URL="../../CS++DCPwr Messages/Query Output State Msg/Query Output State Msg.lvclass"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">

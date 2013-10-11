@@ -129,7 +129,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
-		<Item Name="Query Max Voltage Limit Core.vi" Type="VI" URL="../Query Max Voltage Limit Core.vi">
+		<Item Name="Query Max Voltage Level Core.vi" Type="VI" URL="../Query Max Voltage Level Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#F!'A!%!!,``1!$!!)!"!!"!!8``Q!2&lt;7&amp;Y)(:P&lt;(2B:W5A&lt;'6W:7Q!/E"Q!"Y!!#-036:*8U2$5(&gt;S,GRW&lt;'FC%5F736^%1V"X=CZM&gt;G.M98.T!!V*6EF@2%.1&gt;X)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*5!;!!%!"1!"!"BD&gt;8*S:7ZU)'RJ&lt;7FU)#AQ,D!A17VQ=SE!!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!"#A!!!*!!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
@@ -193,16 +193,16 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Configure Triggered Voltage Level [TRG] Core.vi" Type="VI" URL="../Configure Triggered Voltage Level [TRG] Core.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#&amp;!#A!&lt;&gt;(*J:W&gt;F=G6E)'RF&gt;G6M)#AQ,D!A6G^M&gt;(-J!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!"#A!!!*!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!''!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$.!'A!%!!,``1!$!!)!"!!"!!8``Q!&lt;&gt;(*J:W&gt;F=G6E)'RF&gt;G6M)#AQ,D!A6G^M&gt;(-J!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!"#A!!!*!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Configure Triggered Current Limit [TRG] Core.vi" Type="VI" URL="../Configure Triggered Current Limit [TRG] Core.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#&amp;!#A!;&gt;(*J:W&gt;F=G6E)'RJ&lt;7FU)#AQ,D!A17VQ=SE!!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!"#A!!!*!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;[!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#&gt;!'A!"!!5!!1!;&gt;(*J:W&gt;F=G6E)'RJ&lt;7FU)#AQ,D!A17VQ=SE!!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!"#A!!!*!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
