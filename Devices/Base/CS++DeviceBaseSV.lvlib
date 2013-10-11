@@ -171,7 +171,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 	</Item>
 	<Item Name="myDCPwr" Type="Folder">
-		<Item Name="myDCPwr_Behavor_0" Type="Variable">
+		<Item Name="myDCPwr_Behavior_0" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>

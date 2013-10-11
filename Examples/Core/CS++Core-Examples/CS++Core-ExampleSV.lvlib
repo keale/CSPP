@@ -169,8 +169,123 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		</Item>
 	</Item>
 	<Item Name="myDCPwr" Type="Folder">
+		<Item Name="myDCPwr_Behavior_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Behavior_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Behavior_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_CurrentLimit_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_CurrentLimit_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_CurrentLimit_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myDCPwr_DriverRevision" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str"></Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -178,7 +293,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
@@ -209,7 +324,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="Alarming:LoLo:Enabled" Type="Str">False</Property>
 			<Property Name="Alarming:ROC:Enabled" Type="Str">False</Property>
 			<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
-			<Property Name="featurePacks" Type="Str">Alarming,Network</Property>
+			<Property Name="featurePacks" Type="Str">Alarming,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -217,12 +333,13 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myDCPwr_ErrorMessage" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str"></Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -230,12 +347,13 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myDCPwr_FirmwareRevision" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str"></Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -243,127 +361,52 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="myDCPwr_Measure_A_0" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Measurement value.
-
-Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
-			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-			<Property Name="Logging:LogData" Type="Str">True</Property>
-			<Property Name="Logging:LogEvents" Type="Str">True</Property>
-			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Item Name="myDCPwr_InState_0" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="myDCPwr_Measure_A_1" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Measurement value.
-
-Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
-			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-			<Property Name="Logging:LogData" Type="Str">True</Property>
-			<Property Name="Logging:LogEvents" Type="Str">True</Property>
-			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Item Name="myDCPwr_InState_1" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="myDCPwr_Measure_A_2" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Measurement value.
-
-Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
-			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-			<Property Name="Logging:LogData" Type="Str">True</Property>
-			<Property Name="Logging:LogEvents" Type="Str">True</Property>
-			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Item Name="myDCPwr_InState_2" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="myDCPwr_Measure_V_0" Type="Variable">
+		<Item Name="myDCPwr_MaxCurrentLimit_0" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
-			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-			<Property Name="Logging:LogData" Type="Str">True</Property>
-			<Property Name="Logging:LogEvents" Type="Str">True</Property>
-			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-			<Property Name="Network:BuffSize" Type="Str">50</Property>
-			<Property Name="Network:SingleWriter" Type="Str">False</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
-			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="myDCPwr_Measure_V_1" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Measurement value.
-
-Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
-			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-			<Property Name="Logging:LogData" Type="Str">True</Property>
-			<Property Name="Logging:LogEvents" Type="Str">True</Property>
-			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-			<Property Name="Network:BuffSize" Type="Str">50</Property>
-			<Property Name="Network:SingleWriter" Type="Str">False</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
-			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="myDCPwr_Measure_V_2" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Measurement value.
-
-Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Logging,Network</Property>
-			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-			<Property Name="Logging:LogData" Type="Str">True</Property>
-			<Property Name="Logging:LogEvents" Type="Str">True</Property>
-			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-			<Property Name="Network:BuffSize" Type="Str">50</Property>
-			<Property Name="Network:SingleWriter" Type="Str">False</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
-			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="myDCPwr_OutputState_0" Type="Variable">
-			<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
-			<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
-			<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
-			<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
-			<Property Name="Description:Description" Type="Str">Measurement value.
-
-Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Network,Alarming</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
 			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 			<Property Name="Logging:LogData" Type="Str">True</Property>
 			<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -373,7 +416,275 @@ Unit depend on measurement.</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_MaxCurrentLimit_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_MaxCurrentLimit_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_MaxVoltageLevel_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_MaxVoltageLevel_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_MaxVoltageLevel_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Measure_A_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Logging,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Measure_A_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Logging,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Measure_A_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Logging,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Measure_V_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Logging,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Measure_V_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Logging,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_Measure_V_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Logging,Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OutputEnable_0" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OutputEnable_1" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OutputEnable_2" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OutputState_0" Type="Variable">
+			<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>
+			<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+			<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+			<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Alarming,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
@@ -385,7 +696,8 @@ Unit depend on measurement.</Property>
 			<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Network,Alarming</Property>
+			<Property Name="featurePacks" Type="Str">Network,Alarming,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
 			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 			<Property Name="Logging:LogData" Type="Str">True</Property>
 			<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -395,7 +707,7 @@ Unit depend on measurement.</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
@@ -407,7 +719,8 @@ Unit depend on measurement.</Property>
 			<Property Name="Description:Description" Type="Str">Measurement value.
 
 Unit depend on measurement.</Property>
-			<Property Name="featurePacks" Type="Str">Description,Network,Alarming</Property>
+			<Property Name="featurePacks" Type="Str">Network,Alarming,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
 			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
 			<Property Name="Logging:LogData" Type="Str">True</Property>
 			<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -417,12 +730,163 @@ Unit depend on measurement.</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OVPEnabled_0" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OVPEnabled_1" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OVPEnabled_2" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OVPLimit_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OVPLimit_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_OVPLimit_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_RangeType_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_RangeType_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_RangeType_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myDCPwr_ResourceName" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str"></Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -430,12 +894,13 @@ Unit depend on measurement.</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myDCPwr_SelftestResultCode" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -443,12 +908,13 @@ Unit depend on measurement.</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myDCPwr_SelftestResultMessage" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str"></Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
@@ -456,9 +922,237 @@ Unit depend on measurement.</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerCurrentLimit_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerCurrentLimit_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerCurrentLimit_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerSource_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerSource_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerSource_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">False</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerVoltageLevel_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerVoltageLevel_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_TriggerVoltageLevel_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_VoltageLevel_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_VoltageLevel_1" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myDCPwr_VoltageLevel_2" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Measurement value.
+
+Unit depend on measurement.</Property>
+			<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+			<Property Name="Initial Value:Value" Type="Str">0</Property>
+			<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+			<Property Name="Logging:LogData" Type="Str">True</Property>
+			<Property Name="Logging:LogEvents" Type="Str">True</Property>
+			<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 	</Item>
 	<Item Name="myDMM" Type="Folder">
