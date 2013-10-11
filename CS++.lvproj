@@ -23,12 +23,16 @@ Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher
 
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
 	<Property Name="varPersistentID:{02681964-31F4-44E2-904C-CFD65E2AAEE4}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ErrorMessage</Property>
+	<Property Name="varPersistentID:{0308C986-26EE-4852-8315-5C04453CB67D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OutputEnable_0</Property>
+	<Property Name="varPersistentID:{04E7FA87-FCB0-4E2F-B270-289AFDDF2A68}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_VoltageLevel_0</Property>
 	<Property Name="varPersistentID:{058FDFF7-8345-4B7F-A112-F17946B7EE92}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SampleCount</Property>
 	<Property Name="varPersistentID:{05B871FB-52D7-46A7-96A0-7EDFCE70FCBB}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TransducerType</Property>
 	<Property Name="varPersistentID:{06515780-6614-42C0-9CF2-E8E2075FC4F0}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ResourceName</Property>
 	<Property Name="varPersistentID:{0A7CDD3F-8340-48D6-A3C1-176C7960AC4C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultMessage</Property>
 	<Property Name="varPersistentID:{0E892C92-FC02-47F3-A210-AF07FA7EEAE5}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorMessage</Property>
+	<Property Name="varPersistentID:{0F4ECE33-2D67-4F34-A11C-79BC5B152AAE}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_CurrentLimit_0</Property>
 	<Property Name="varPersistentID:{13BF00F9-82A0-455F-982A-6376DA759ADB}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_DriverRevision</Property>
+	<Property Name="varPersistentID:{151DA807-6E41-4DD2-B71A-6C8601B46A8E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_MaxVoltageLevel_0</Property>
 	<Property Name="varPersistentID:{1E8A90AE-3E6C-408E-97C8-188F0E176674}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SampleInterval</Property>
 	<Property Name="varPersistentID:{1EB7BFF9-3AE7-4721-9766-5138AE85643F}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SampleTrigger</Property>
 	<Property Name="varPersistentID:{1FE36E3E-E36A-4B15-8EA6-A4E4BCF96243}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TriggerCount</Property>
@@ -38,8 +42,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{25C52B82-64AE-4A67-B047-B9874C95A9E3}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_FixedReferenceJunction</Property>
 	<Property Name="varPersistentID:{26A4688E-5E7A-4375-8C4A-916A7A5C38C1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_SelftestResultCode</Property>
 	<Property Name="varPersistentID:{29B5822F-540D-4AE7-B754-AD174752DF55}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_FirmwareRevision</Property>
+	<Property Name="varPersistentID:{2BFA0934-D0E0-40AD-9B6D-6BB42E63FD53}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_TriggerSource_0</Property>
 	<Property Name="varPersistentID:{2C92BD19-3765-4287-A131-58512D4D7DAE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_V_1</Property>
-	<Property Name="varPersistentID:{2CDC7202-4544-49D8-9D47-32CAEB2179D3}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OutputState_2</Property>
 	<Property Name="varPersistentID:{2DA3D9CA-2A1D-43CC-9ABA-CAA8533DD317}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TriggerCount</Property>
 	<Property Name="varPersistentID:{2F8EA3E9-7AAF-4D68-87D1-D29981472345}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_Resistance</Property>
 	<Property Name="varPersistentID:{312591B2-0C86-4EF3-9FA7-C39EB6D19942}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_FirmwareRevision</Property>
@@ -49,7 +53,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{3505A4B1-BA76-4FAA-B527-89A34A6F7E1C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ErrorMessage</Property>
 	<Property Name="varPersistentID:{381B24E3-A38E-4715-826F-5640BE2E8A64}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ActualRange</Property>
 	<Property Name="varPersistentID:{384FE696-4F79-4017-B005-A607BA606172}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SelftestResultCode</Property>
+	<Property Name="varPersistentID:{3A010850-8D29-42FF-8D5C-0C9172B5C085}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OVPEnabled_0</Property>
 	<Property Name="varPersistentID:{3A1A0BBF-4B71-459D-9484-29C3E6D17D4E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_DriverRevision</Property>
+	<Property Name="varPersistentID:{3BFF824E-774A-4C1F-980E-12420BCCFEEA}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OVPLimit_0</Property>
 	<Property Name="varPersistentID:{3C649A39-9A7C-4F47-A5B1-0BCC60EC5015}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_MPReading</Property>
 	<Property Name="varPersistentID:{430A5999-DA5D-43F0-B7C2-DDC642F5F55C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_V_2</Property>
 	<Property Name="varPersistentID:{43C63A1D-B736-43E8-87D1-DF6531062217}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_FrequencyVoltageRange</Property>
@@ -62,9 +68,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{58236539-A735-420E-971A-02255A2D6872}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ApertureTimeUnit</Property>
 	<Property Name="varPersistentID:{5A0BDAD6-294F-4D99-AD9F-910E73378A39}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ACMinFrequency</Property>
 	<Property Name="varPersistentID:{5D399AF7-995E-4EC7-A31A-F1DDD3BDE72C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_ResourceName</Property>
-	<Property Name="varPersistentID:{5E2A67B4-37E8-41EA-906B-43131A53805C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_V_2</Property>
 	<Property Name="varPersistentID:{60B6FEEA-24D8-49E7-B052-D4D859E96BC6}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TriggerDelay</Property>
-	<Property Name="varPersistentID:{61FBC454-F5AF-46D5-96C7-1ED7F26A4392}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OutputState_1</Property>
 	<Property Name="varPersistentID:{628F804C-5048-40E4-B0ED-B7F849079D61}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SelftestResultMessage</Property>
 	<Property Name="varPersistentID:{65653256-C167-4712-9157-A95AD17ACFD2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_FixedReferenceJunction</Property>
 	<Property Name="varPersistentID:{67F9A10B-3983-4F15-B33A-35B8B7603498}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_FirmwareRevision</Property>
@@ -75,6 +79,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{6C3C397B-1CA7-496E-AA20-6B551117CC12}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_FirmwareRevision</Property>
 	<Property Name="varPersistentID:{6DEAC549-A761-4192-9244-1B1A6F7150D0}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ErrorMessage</Property>
 	<Property Name="varPersistentID:{75C934E4-5FD7-4C19-9509-2046D0468838}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_IsOverRange</Property>
+	<Property Name="varPersistentID:{7848A41E-1CFA-46B3-8EE8-CEDE74BB02E5}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_TriggerVoltageLevel_0</Property>
 	<Property Name="varPersistentID:{798FE01C-A1E0-4F93-A42B-55FEBA28C023}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OutputState_0</Property>
 	<Property Name="varPersistentID:{7A766E03-4274-4D22-9FC3-FD6A23CBD01E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDouble</Property>
 	<Property Name="varPersistentID:{7B6F0AF9-174D-4C6E-9AFB-9EEB182FAE80}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_Range</Property>
@@ -91,7 +96,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{8C9410AE-D28B-466E-A12F-A85CF812DB84}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_V_0</Property>
 	<Property Name="varPersistentID:{9402B076-3F1F-4520-97CC-9E3D9B204AE1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ReferenceJunctionType</Property>
 	<Property Name="varPersistentID:{9AB5DAF3-285D-443C-B8FE-8367E0728F6A}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorCode</Property>
+	<Property Name="varPersistentID:{9BE13320-80D7-4271-BC87-4688886ADE64}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_RangeType_0</Property>
 	<Property Name="varPersistentID:{9FC4C93B-0A8D-428C-94AB-49B0FE3D67A5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_MeasCompleteDestination</Property>
+	<Property Name="varPersistentID:{A29A0B0D-F26C-4E3C-B726-83335C3B73FF}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_TriggerCurrentLimit_0</Property>
 	<Property Name="varPersistentID:{A52A8305-5456-43FF-B78E-F3535E070765}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_SelftestResultMessage</Property>
 	<Property Name="varPersistentID:{A7F3A404-30F5-44FF-80D7-0450F33475DE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_V_0</Property>
 	<Property Name="varPersistentID:{A82887D3-7665-49CF-8190-608EBF4D5679}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ResourceName</Property>
@@ -99,7 +106,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{AF8E432A-2A23-484A-B144-64956F4A29A8}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SampleInterval</Property>
 	<Property Name="varPersistentID:{B198AF19-248B-4075-A199-0518C6AC8DC6}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_Reading</Property>
 	<Property Name="varPersistentID:{B2ED0E9E-6485-4230-8DBF-00342ED19911}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_PowerLineFrequency</Property>
-	<Property Name="varPersistentID:{B49D62FB-9B1D-4E14-AD14-E1A2DEAD695A}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_A_2</Property>
 	<Property Name="varPersistentID:{B64A5A2C-250F-4AD2-B68A-62BC4AC4E8EB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ActualRange</Property>
 	<Property Name="varPersistentID:{B7A1ACC9-59EA-4E88-8C34-07DA041FABF9}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ResourceName</Property>
 	<Property Name="varPersistentID:{B863CCA5-E5F2-455D-AA69-327E52712695}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_AutoZeroMode</Property>
@@ -118,7 +124,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{E107A2C7-A54C-4FBF-A260-E32BCFEC08B2}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultCode</Property>
 	<Property Name="varPersistentID:{E1BA5E38-E1E6-4D90-97A8-B37E636BC0A7}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ApertureTime</Property>
 	<Property Name="varPersistentID:{E2AA0B1B-D971-4D4B-8D88-D60152B011F1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myString</Property>
-	<Property Name="varPersistentID:{E3167B74-63AE-4408-8A15-2247F0E93962}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_A_1</Property>
 	<Property Name="varPersistentID:{E50EC7A3-C967-48C5-811E-97656FE8EEB0}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ReferenceJunctionType</Property>
 	<Property Name="varPersistentID:{E5489C4A-3FB2-4AD5-845F-74BA5464E69D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_MeasurementFunction</Property>
 	<Property Name="varPersistentID:{E5CA47C6-6353-4B01-BBB6-7451B651979E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorMessage</Property>
@@ -135,9 +140,10 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{EEB6ADD6-B6CC-42A1-BBBB-4F5089D4C3D1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ErrorCode</Property>
 	<Property Name="varPersistentID:{EFD705AD-9022-459B-A68F-DE52D2E2BC1C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_InState_0</Property>
 	<Property Name="varPersistentID:{F394C8F1-0546-4B9D-A460-E87D89D481FE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_A_0</Property>
+	<Property Name="varPersistentID:{F39F94C1-2774-4373-8480-20D4E002EE81}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Behavor_0</Property>
 	<Property Name="varPersistentID:{F3F931EF-6630-4830-AE74-A3C54F991BAC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_DriverRevision</Property>
 	<Property Name="varPersistentID:{F42DC895-3F53-46A8-8B60-FFD186DA7020}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ApertureTimeUnit</Property>
-	<Property Name="varPersistentID:{F6266DDB-955D-4D7C-A9BF-32445013294F}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_V_1</Property>
+	<Property Name="varPersistentID:{F77C3D52-A81F-494F-9482-6398B9FDFE2D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_MaxCurrentLimit_0</Property>
 	<Property Name="varPersistentID:{F8BB2048-3BB8-4E78-98FD-F801262D1D2C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_Range</Property>
 	<Property Name="varPersistentID:{FA2C583D-38CB-4E0B-89F4-1135A4B0FD4E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ACMaxFrequency</Property>
 	<Property Name="varPersistentID:{FC14FA1C-B04A-4895-93EF-DF1F1A4872B2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_ErrorCode</Property>
