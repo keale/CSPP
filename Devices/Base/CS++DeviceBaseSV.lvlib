@@ -251,6 +251,16 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myDCPwr_InState_0" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myDCPwr_Measure_A_0" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Measurement value.
 

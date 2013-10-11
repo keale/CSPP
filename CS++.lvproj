@@ -133,6 +133,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{EC7AE088-5F60-4754-A6D9-ECCD88B022DA}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_IsOverRange</Property>
 	<Property Name="varPersistentID:{EE181335-3174-483A-8351-1BD56D0779A8}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_FrequencyVoltageRange</Property>
 	<Property Name="varPersistentID:{EEB6ADD6-B6CC-42A1-BBBB-4F5089D4C3D1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ErrorCode</Property>
+	<Property Name="varPersistentID:{EFD705AD-9022-459B-A68F-DE52D2E2BC1C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_InState_0</Property>
 	<Property Name="varPersistentID:{F394C8F1-0546-4B9D-A460-E87D89D481FE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_A_0</Property>
 	<Property Name="varPersistentID:{F3F931EF-6630-4830-AE74-A3C54F991BAC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_DriverRevision</Property>
 	<Property Name="varPersistentID:{F42DC895-3F53-46A8-8B60-FFD186DA7020}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ApertureTimeUnit</Property>
@@ -190,11 +191,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="CS++DeviceBase-Content.vi" Type="VI" URL="../Devices/Base/CS++DeviceBase-Content.vi"/>
 				<Item Name="CS++Devices.ini" Type="Document" URL="../Devices/Base/CS++Devices.ini"/>
+				<Item Name="CS++DeviceBaseSV.lvlib" Type="Library" URL="../Devices/Base/CS++DeviceBaseSV.lvlib"/>
 				<Item Name="CS++DCPwr.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwr/CS++DCPwr.lvlib"/>
 				<Item Name="CS++DCPwrGui.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwrGui/CS++DCPwrGui.lvlib"/>
 				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
 				<Item Name="CS++DMMGui.lvlib" Type="Library" URL="../Devices/Base/CS++DMMGui/CS++DMMGui.lvlib"/>
-				<Item Name="CS++DeviceBaseSV.lvlib" Type="Library" URL="../Devices/Base/CS++DeviceBaseSV.lvlib"/>
 			</Item>
 			<Item Name="IVI" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
