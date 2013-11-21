@@ -42,9 +42,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Item Name="IVI_DCPwr.ctl" Type="Class Private Data" URL="IVI_DCPwr.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Action/Status" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-	</Item>
 	<Item Name="protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -148,13 +145,13 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="NI.ClassItem.State" Type="Int">1082393104</Property>
 		</Item>
 		<Item Name="Configure Output Range Core.vi" Type="VI" URL="../Configure Output Range Core.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;O!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"N!!Q!5=G&amp;O:W5A&gt;(FQ:3!I6G^M&gt;'&amp;H:3E!!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!"#A!!!*!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!21!I!#X*B&lt;G&gt;F)#AQ,D!J!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'U!$!"2S97ZH:3"U?8"F)#B7&lt;WRU97&gt;F+1!!)E!Q`````RFD;'&amp;O&lt;G6M)'ZB&lt;75A+#*$3%&amp;/4E6--3)J!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!-36:*8U2$5(&gt;S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!'!!1!"Q!)!!E!#A-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!I!!!!!!!!!#A!!!!I!!!%+!!!!E!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 		<Item Name="Configure Current Limit Core.vi" Type="VI" URL="../Configure Current Limit Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!:1!-!%W*F;'&amp;W;7^S)#BS:7&gt;V&lt;'&amp;U:3E!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!&gt;1"I!!1!&amp;!!%!%'RJ&lt;7FU)#AQ,D!A17VQ=SE!!#*!-0````]:9WBB&lt;GZF&lt;#"O97VF)#AC1UB"4EZ&amp;4$%C+1![1(!!(A!!)Q^*6EF@2%.1&gt;X)O&lt;(:M;7)236:*8U2$5(&gt;S,GRW9WRB=X-!$%F736^%1V"X=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"A!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!+!!!!!!!!!!I!!!!)!!!"#A!!!*!!!!!!!1!,!!!!!!</Property>
@@ -208,7 +205,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Initiate [TRG] Core.vi" Type="VI" URL="../Initiate [TRG] Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!.36:*8U2$5(&gt;S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!D$UF736^%1V"X=CZM&gt;GRJ9B&amp;*6EF@2%.1&gt;X)O&lt;(:D&lt;'&amp;T=Q!-36:*8U2$5(&gt;S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>

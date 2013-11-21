@@ -247,6 +247,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="CS++DCPwrGui.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwrGui/CS++DCPwrGui.lvlib"/>
 				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
 				<Item Name="CS++DMMGui.lvlib" Type="Library" URL="../Devices/Base/CS++DMMGui/CS++DMMGui.lvlib"/>
+				<Item Name="CS++Fgen.lvlib" Type="Library" URL="../Devices/Base/CS++Fgen/CS++Fgen.lvlib"/>
 			</Item>
 			<Item Name="IVI" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -423,15 +424,67 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="IviDmm Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Revision Query.vi"/>
 				<Item Name="IviDmm Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Self-Test.vi"/>
 				<Item Name="IviDmm Send Software Trigger [SWT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Send Software Trigger [SWT].vi"/>
+				<Item Name="IviFgen Abort Generation.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Abort Generation.vi"/>
+				<Item Name="IviFgen Clear Arbitrary Memory [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Clear Arbitrary Memory [SEQ].vi"/>
+				<Item Name="IviFgen Clear Arbitrary Sequence [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Clear Arbitrary Sequence [SEQ].vi"/>
+				<Item Name="IviFgen Clear Arbitrary Waveform [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Clear Arbitrary Waveform [ARB].vi"/>
 				<Item Name="IviFgen Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Close.vi"/>
+				<Item Name="IviFgen Configure Advance Trigger [AT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Advance Trigger [AT].vi"/>
+				<Item Name="IviFgen Configure AM Enabled [AM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure AM Enabled [AM].vi"/>
+				<Item Name="IviFgen Configure AM Internal [AM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure AM Internal [AM].vi"/>
+				<Item Name="IviFgen Configure AM Source [AM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure AM Source [AM].vi"/>
+				<Item Name="IviFgen Configure Arb Frequency [AF].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Arb Frequency [AF].vi"/>
+				<Item Name="IviFgen Configure Arbitrary Sequence [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Arbitrary Sequence [SEQ].vi"/>
+				<Item Name="IviFgen Configure Arbitrary Waveform [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Arbitrary Waveform [ARB].vi"/>
+				<Item Name="IviFgen Configure Burst Count [BST].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Burst Count [BST].vi"/>
+				<Item Name="IviFgen Configure Data Marker [DM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Data Marker [DM].vi"/>
+				<Item Name="IviFgen Configure FM Enabled [FM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure FM Enabled [FM].vi"/>
+				<Item Name="IviFgen Configure FM Internal [FM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure FM Internal [FM].vi"/>
+				<Item Name="IviFgen Configure FM Source [FM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure FM Source [FM].vi"/>
+				<Item Name="IviFgen Configure Internal Trigger Rate [IT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Internal Trigger Rate [IT].vi"/>
+				<Item Name="IviFgen Configure Operation Mode.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Operation Mode.vi"/>
+				<Item Name="IviFgen Configure Output Enabled.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Output Enabled.vi"/>
+				<Item Name="IviFgen Configure Output Impedance.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Output Impedance.vi"/>
+				<Item Name="IviFgen Configure Output Mode.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Output Mode.vi"/>
+				<Item Name="IviFgen Configure Ref Clock Source.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Ref Clock Source.vi"/>
+				<Item Name="IviFgen Configure Resume Trigger [RT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Resume Trigger [RT].vi"/>
+				<Item Name="IviFgen Configure Sample Clock [SC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sample Clock [SC].vi"/>
+				<Item Name="IviFgen Configure Sample Clock Output Enabled [SC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sample Clock Output Enabled [SC].vi"/>
+				<Item Name="IviFgen Configure Sample Rate [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sample Rate [ARB].vi"/>
+				<Item Name="IviFgen Configure Sparse Marker [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sparse Marker [SM].vi"/>
+				<Item Name="IviFgen Configure Standard Waveform [STD].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Standard Waveform [STD].vi"/>
+				<Item Name="IviFgen Configure Start Trigger [STT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Start Trigger [STT].vi"/>
+				<Item Name="IviFgen Configure Stop Trigger [SPT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Stop Trigger [SPT].vi"/>
+				<Item Name="IviFgen Configure Trigger Source [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Trigger Source [TRG].vi"/>
+				<Item Name="IviFgen Create Arbitrary Sequence [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Arbitrary Sequence [SEQ].vi"/>
+				<Item Name="IviFgen Create Arbitrary Waveform [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Arbitrary Waveform [ARB].vi"/>
+				<Item Name="IviFgen Create Channel Arbitrary Waveform [ACH].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Channel Arbitrary Waveform [ACH].vi"/>
+				<Item Name="IviFgen Create Channel Arbitrary Waveform Int16 [AB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Channel Arbitrary Waveform Int16 [AB].vi"/>
+				<Item Name="IviFgen Create Channel Arbitrary Waveform Int32 [AB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Channel Arbitrary Waveform Int32 [AB].vi"/>
+				<Item Name="IviFgen Disable All Data Markers [DM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Disable All Data Markers [DM].vi"/>
+				<Item Name="IviFgen Disable All Sparse Markers [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Disable All Sparse Markers [SM].vi"/>
 				<Item Name="IviFgen Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Error-Query.vi"/>
+				<Item Name="IviFgen Get Channel Name.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Channel Name.vi"/>
+				<Item Name="IviFgen Get Data Marker Name [DM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Data Marker Name [DM].vi"/>
+				<Item Name="IviFgen Get Sparse Marker Indexes [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Sparse Marker Indexes [SM].vi"/>
+				<Item Name="IviFgen Get Sparse Marker Name [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Sparse Marker Name [SM].vi"/>
 				<Item Name="IviFgen Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initialize With Options.vi"/>
 				<Item Name="IviFgen Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initialize.vi"/>
+				<Item Name="IviFgen Initiate Generation.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initiate Generation.vi"/>
 				<Item Name="IviFgen IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen IVI Error Converter.vi"/>
+				<Item Name="IviFgen Query Arb Sequence Capabilities [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Query Arb Sequence Capabilities [SEQ].vi"/>
+				<Item Name="IviFgen Query Arb Waveform Capabilities [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Query Arb Waveform Capabilities [ARB].vi"/>
+				<Item Name="IviFgen Query Arb Wfm Capabilities 64 [ARB64].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Query Arb Wfm Capabilities 64 [ARB64].vi"/>
 				<Item Name="IviFgen Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Reset With Defaults.vi"/>
 				<Item Name="IviFgen Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Reset.vi"/>
 				<Item Name="IviFgen Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Revision Query.vi"/>
 				<Item Name="IviFgen Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Self-Test.vi"/>
+				<Item Name="IviFgen Send Software Advance Trigger [AT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Advance Trigger [AT].vi"/>
+				<Item Name="IviFgen Send Software Hold Trigger [HT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Hold Trigger [HT].vi"/>
+				<Item Name="IviFgen Send Software Resume Trigger [RT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Resume Trigger [RT].vi"/>
+				<Item Name="IviFgen Send Software Stop Trigger [SPT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Stop Trigger [SPT].vi"/>
+				<Item Name="IviFgen Send Software Trigger [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Trigger [TRG].vi"/>
+				<Item Name="IviFgen Set Sparse Marker Indexes [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Set Sparse Marker Indexes [SM].vi"/>
 				<Item Name="IviPwrMeter Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Close.vi"/>
 				<Item Name="IviPwrMeter Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Error-Query.vi"/>
 				<Item Name="IviPwrMeter Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Initialize With Options.vi"/>
