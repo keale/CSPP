@@ -1141,6 +1141,18 @@ An arbitrary sequence consists of multiple arbitrary waveforms in a sequence.  E
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myFgen_ChannelEnabled_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specify whether you want the signal the function generator produces to appear at the output terminal.  The driver sets the IviFgen&gt;&gt;Basic Operation&gt;&gt;Output Enabled property to this value. 
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_DriverRevision" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -1338,6 +1350,104 @@ IVIFGEN_VAL_OPERATE_CONTINUOUS - continuous generation
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myFgen_OutputImpedance_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the impedance value you want the function generator to use.  The driver sets the IviFgen&gt;&gt;Basic Operation&gt;&gt;Output Impedance property to this value.  
+
+A value of 0.0 indicates that the function generator is connected to a high impedance load. Unit: Ohm.</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">True</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_OutputMode" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the output mode you want the function generator to use.  The driver sets the IviFgen&gt;&gt;Basic Operation&gt;&gt;Output Mode property to this value.  The value you specify determines which VIs and properties you use to configure the waveform the function generator produces.
+
+When you set this parameter to IVIFGEN_VAL_OUTPUT_FUNC, you use the following VI to configure the waveform:
+
+- IviFgen Configure Standard Waveform [STD]
+
+In place of using this VI, you can set the following properties:
+
+- IviFgen&gt;&gt;Standard Function Output&gt;&gt;Waveform [STD]     
+- IviFgen&gt;&gt;Standard Function Output&gt;&gt;Amplitude [STD] 
+- IviFgen&gt;&gt;Standard Function Output&gt;&gt;DC Offset [STD]   
+- IviFgen&gt;&gt;Standard Function Output&gt;&gt;Frequency [STD] 
+- IviFgen&gt;&gt;Standard Function Output&gt;&gt;Start Phase [STD]   
+- IviFgen&gt;&gt;Standard Function Output&gt;&gt;Duty Cycle High [STD]
+
+When you set this parameter to IVIFGEN_VAL_OUTPUT_ARB, you use the following VIs to configure the waveform:
+
+- IviFgen Query Arb Waveform Capabilities [ARB]
+- IviFgen Create Arbitrary Waveform [ARB]  
+- IviFgen Clear Arbitrary Waveform [ARB]
+- IviFgen Configure Sample Rate [ARB]
+- IviFgen Configure Arbitrary Waveform [ARB] 
+- IviFgen Configure Arb Frequency [AF]
+
+In place of using the IviFgen Configure Sample Rate [ARB] and IviFgen Configure Arbitrary Waveform [ARB] VIs, you can set the following properties:
+
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arbitrary Waveform Handle [ARB]  
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arbitrary Waveform Gain [ARB]
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arbitrary Waveform Offset [ARB]  
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Sample Rate [ARB] 
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arb Frequency [AF]
+
+When you set this parameter to IVIFGEN_VAL_OUTPUT_SEQ, you use the following VIs to configure the sequence:
+
+- IviFgen Query Arb Waveform Capabilities [ARB]
+- IviFgen Create Arbitrary Waveform [ARB]  
+- IviFgen Clear Arbitrary Waveform [ARB]
+- IviFgen Query Arb Sequence Capabilities [SEQ]
+- IviFgen Create Arbitrary Waveform [ARB]
+- IviFgen Clear Arbitrary Sequence [SEQ]
+- IviFgen Clear Arbitrary Memory [SEQ]
+- IviFgen Configure Sample Rate [ARB]
+- IviFgen Configure Arbitrary Sequence [SEQ]
+
+In place of using the IviFgen Configure Sample Rate [ARB] and IviFgen Configure Arbitrary Sequence [SEQ] VIs, you can set the following properties:
+
+- IviFgen&gt;&gt;Arbitrary Sequence Output&gt;&gt;Arbitrary Sequence Handle [SEQ]  
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arbitrary Waveform Gain [ARB]
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arbitrary Waveform Offset [ARB]  
+- IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Sample Rate [ARB] 
+
+Defined Values:
+IVIFGEN_VAL_OUTPUT_FUNC - Standard Function Output
+IVIFGEN_VAL_OUTPUT_ARB - Arbitrary Waveform Output
+IVIFGEN_VAL_OUTPUT_SEQ - Arbitrary Sequence output
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_ReferenceClockSource" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the reference clock source you want the function generator to use.  The driver sets the IviFgen&gt;&gt;Basic Operation&gt;&gt;Reference Clock Source property to this value.
+
+The function generator derives the frequencies and sample rates that it uses to generate waveforms from the source you specify.  For example, when you set this parameter to IVIFGEN_VAL_REF_CLOCK_EXTERNAL, the function generator uses
+the signal it receives at its external clock terminal as its reference clock.
+
+Defined Values:
+IVIFGEN_VAL_REF_CLOCK_INTERNAL - internal clock source
+IVIFGEN_VAL_REF_CLOCK_EXTERNAL - external clock source
+IVIFGEN_VAL_REF_CLOCK_RTSI_CLOCK - RTSI clock source
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_ResourceName" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -1376,6 +1486,17 @@ IVIFGEN_VAL_OPERATE_CONTINUOUS - continuous generation
 			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_TriggerRate" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specify the rate at which you want the function generator's internal trigger rate to generate trigger signals.  The driver sets the IviFgen&gt;&gt;Triggering Attributes&gt;&gt;Internal Trigger Attributes&gt;&gt;Internal Trigger Rate [IT] to this value.</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myFgen_TriggerSlope_0" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Specifies the source of the advance trigger. The driver sets the IviFgen Advance Trigger Source [AT] property to this value. 
