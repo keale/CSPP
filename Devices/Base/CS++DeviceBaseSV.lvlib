@@ -1111,6 +1111,26 @@ IVIFGEN_VAL_AM_EXTERNAL - external modulation source
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myFgen_Amplitude_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the amplitude of the standard waveform that you want the function generator to produce.  This value is the amplitude at the output terminal.  The driver sets the IviFgen&gt;&gt; Standard Function Output&gt;&gt;Amplitude [STD] property to this value.  For example,  to produce a waveform ranging from -5.00 to +5.00 volts, set the amplitude to 10.00 volts.
+
+Units: Volts peak-to-peak (Vpp)
+
+Default Value: 1.0V
+
+Notes:
+
+(1) This parameter does not affect function generator behavior when you set the Waveform parameter to IVIFGEN_VAL_WFM_DC.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_Arb-Frequency_0" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Pass the frequency at which you want the function generator to produce one cycle of an arbitrary waveform.  The driver sets the IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Arbitrary Waveform Frequency&gt;&gt;Arb Frequency [AF] property to this value.
 
@@ -1152,6 +1172,20 @@ An arbitrary sequence consists of multiple arbitrary waveforms in a sequence.  E
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_DCOffset_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the DC offset of the standard waveform that you want the function generator to produce.  This value is the offset at the output terminal.  The value is the offset from ground to the center of the waveform you specify with the Waveform parameter.  The driver sets the IviFgen&gt;&gt;Standard Function Output&gt;&gt;DC Offset [STD] property to this value.  For example,  to configure a waveform with an amplitude of 10.00 volts to range from 0.00 volts to +10.00 volts, set the DC Offset to 5.00 volts.
+
+Units: Volts (V)
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="myFgen_DriverRevision" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Network</Property>
@@ -1312,6 +1346,24 @@ IVIFGEN_VAL_FM_EXTERNAL - external modulation source
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myFgen_Frequency_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the frequency of the standard waveform that you want the function generator to produce.  The driver sets the IviFgen&gt;&gt;Standard Function Output&gt;&gt;Frequency [STD] property to this value.
+
+Units: Hertz (Hz)
+
+Notes:
+
+(1) This parameter does not affect function generator behavior when you set the Waveform parameter to IVIFGEN_VAL_WFM_DC.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_NumberOfChannels" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Measurement value.
 
@@ -1461,6 +1513,137 @@ IVIFGEN_VAL_REF_CLOCK_RTSI_CLOCK - RTSI clock source
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myFgen_ResumeTriggerSlope_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the slope of the start trigger. The driver sets the IviFgen Start Trigger Slope [STT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_POSITIVE (0)  - Triggers on a positive slope.
+IVIFGEN_VAL_TRIGGER_NEGATIVE (1)  - Triggers on a negative slope.
+IVIFGEN_VAL_TRIGGER_EITHER (2)    - Triggers on either a positive or negative slope.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_ResumeTriggerSource_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the source of the resume trigger. The driver sets the IviFgen Resume Trigger Source [RT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
+IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
+                                     - PXI Express DStar Line A
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
+                                     - PXI Express DStar Line B
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
+                                     - PXI Express DStar Line C
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_SampleClockOutputEnabled" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass whether you want sample clock to appear at the sample clock output of the generator. The driver sets the IviFgen Sample Clock Output Enabled [SC] property to this value.
+
+Valid Values:
+VI_TRUE  - Enable the sample clock output
+VI_FALSE - Disable the sample clock output
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_SampleClockSource" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the sample clock source you want the function generator to use.  The driver sets the IviFgen Sample Clock Source [SC] property to this value. The value you specify determines the clock used for the waveform generation.
+
+If you want to set this parameter to IVIFGEN_VAL_SAMPLE_CLOCK_SOURCE_EXTERNAL (1), you must first set the arbitrary sample rate to the corresponding frequency of the external sample clock.
+You can use the IviFgen Configure Sample Rate [ARB] VI or set the IviFgen Sample Rate [ARB] property to configure the arbitrary sample rate.
+
+Defined Values:
+IVIFGEN_VAL_SAMPLE_CLOCK_SOURCE_INTERNAL (0)  - Use the internal sample clock.
+IVIFGEN_VAL_SAMPLE_CLOCK_SOURCE_EXTERNAL (1)  - Use an external sample clock.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_SampleRate" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the sample rate at which you want the function generator to output arbitrary waveforms.  The driver sets the IviFgen&gt;&gt;Arbitrary Waveform Output&gt;&gt;Sample Rate [ARB] property to this value. 
+
+Units: Samples-per-Second (Samp/s)
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_SelftestResultCode" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -1484,6 +1667,107 @@ IVIFGEN_VAL_REF_CLOCK_RTSI_CLOCK - RTSI clock source
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="Path" Type="Str">/CS++.lvproj/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_StartPhase_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the horizontal offset of the standard waveform you want the the function generator to produce.  You specify this property in degrees of one waveform cycle.  The driver sets the IviFgen&gt;&gt;Standard Function Output&gt;&gt;Start Phase [STD] property to this value.  A start phase of 180 degrees means output generation begins half way through the waveform.  A start phase of 360 degrees offsets the output by an entire waveform cycle, which is identical to a start phase of 0 degrees.
+
+
+Units: Degrees of one cycle
+
+Notes:
+
+(1) This parameter does not affect function generator behavior when you set the Waveform parameter to IVIFGEN_VAL_WFM_DC.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_StartTriggerSlope_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the slope of the start trigger. The driver sets the IviFgen Start Trigger Slope [STT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_POSITIVE (0)  - Triggers on a positive slope.
+IVIFGEN_VAL_TRIGGER_NEGATIVE (1)  - Triggers on a negative slope.
+IVIFGEN_VAL_TRIGGER_EITHER (2)    - Triggers on either a positive or negative slope.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_StartTriggerSource_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the source of the start trigger. The driver sets the IviFgen Start Trigger Source [STT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
+IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
+                                     - PXI Express DStar Line A
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
+                                     - PXI Express DStar Line B
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
+                                     - PXI Express DStar Line C
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
@@ -1627,6 +1911,26 @@ IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_Waveform_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Pass the standard waveform that you want the function generator to produce.  The driver sets the IviFgen&gt;&gt;Standard Function Output&gt;&gt;Waveform [STD] property to this value.
+
+Valid Values:
+IVIFGEN_VAL_WFM_SINE - Sinusoid waveform
+IVIFGEN_VAL_WFM_SQUARE - Square waveform 
+IVIFGEN_VAL_WFM_TRIANGLE - Triangle waveform
+IVIFGEN_VAL_WFM_RAMP_UP - Positive ramp waveform 
+IVIFGEN_VAL_WFM_RAMP_DOWN - Negative ramp waveform 
+IVIFGEN_VAL_WFM_DC - Constant voltage
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 	</Item>
 </Library>
