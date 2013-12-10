@@ -1035,6 +1035,136 @@ IVIDMM_VAL_TEMPERATURE        - Temperature (C)
 		</Item>
 	</Item>
 	<Item Name="myFgen" Type="Folder">
+		<Item Name="myFgen_AdvancedTriggerSlope_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the source of the advance trigger. The driver sets the IviFgen Advance Trigger Source [AT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
+IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
+                                     - PXI Express DStar Line A
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
+                                     - PXI Express DStar Line B
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
+                                     - PXI Express DStar Line C
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_AdvancedTriggerSource_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the source of the advance trigger. The driver sets the IviFgen Advance Trigger Source [AT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
+IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
+                                     - PXI Express DStar Line A
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
+                                     - PXI Express DStar Line B
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
+                                     - PXI Express DStar Line C
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_AM-Enabled_0" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Specify whether you want the function generator to apply amplitude modulation to the channel.  The driver sets the IviFgen&gt;&gt;Amplitude Modulation Attributes&gt;&gt;AM Enabled [AM] property to this value. 
 </Property>
@@ -1771,6 +1901,88 @@ IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="myFgen_StopTriggerSlope_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the slope of the start trigger. The driver sets the IviFgen Start Trigger Slope [STT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_POSITIVE (0)  - Triggers on a positive slope.
+IVIFGEN_VAL_TRIGGER_NEGATIVE (1)  - Triggers on a negative slope.
+IVIFGEN_VAL_TRIGGER_EITHER (2)    - Triggers on either a positive or negative slope.
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="myFgen_StopTriggerSource_0" Type="Variable">
+			<Property Name="Description:Description" Type="Str">Specifies the source of the stop trigger. The driver sets the IviFgen Stop Trigger Source [SPT] property to this value. 
+
+Valid Values:
+IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
+IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
+IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
+IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
+IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
+IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
+                                     - PXI Express DStar Line A
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
+                                     - PXI Express DStar Line B
+IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
+                                     - PXI Express DStar Line C
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
+IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
+</Property>
+			<Property Name="featurePacks" Type="Str">Description,Network</Property>
+			<Property Name="Network:BuffSize" Type="Str">50</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"-!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="myFgen_TriggerRate" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Specify the rate at which you want the function generator's internal trigger rate to generate trigger signals.  The driver sets the IviFgen&gt;&gt;Triggering Attributes&gt;&gt;Internal Trigger Attributes&gt;&gt;Internal Trigger Rate [IT] to this value.</Property>
 			<Property Name="featurePacks" Type="Str">Description,Network</Property>
@@ -1782,127 +1994,36 @@ IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"-!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="myFgen_TriggerSlope_0" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Specifies the source of the advance trigger. The driver sets the IviFgen Advance Trigger Source [AT] property to this value. 
-
-Valid Values:
-IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
-IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
-IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
-IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
-IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
-IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
-                                     - PXI Express DStar Line A
-IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
-                                     - PXI Express DStar Line B
-IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
-                                     - PXI Express DStar Line C
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
-</Property>
-			<Property Name="featurePacks" Type="Str">Description,Network</Property>
-			<Property Name="Network:BuffSize" Type="Str">50</Property>
-			<Property Name="Network:SingleWriter" Type="Str">False</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
 		<Item Name="myFgen_TriggerSource_0" Type="Variable">
-			<Property Name="Description:Description" Type="Str">Specifies the source of the advance trigger. The driver sets the IviFgen Advance Trigger Source [AT] property to this value. 
+			<Property Name="Description:Description" Type="Str">Specify the trigger source you want to use.  The driver sets the Trigger Source [TRG] property to this value.
 
-Valid Values:
-IVIFGEN_VAL_TRIGGER_SOURCE_NONE ("")       - No trigger source
-IVIFGEN_VAL_TRIGGER_SOURCE_IMMEDIATE ("Immediate")  - Trigger immediately
-IVIFGEN_VAL_TRIGGER_SOURCE_EXTERNAL ("External")   - External trigger source
-IVIFGEN_VAL_TRIGGER_SOURCE_INTERNAL ("Internal")   - Internal trigger source
-IVIFGEN_VAL_TRIGGER_SOURCE_SOFTWARE ("Software")   - Software trigger 
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN0 ("LAN0")       - LAN0
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN1 ("LAN1")       - LAN1
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN2 ("LAN2")       - LAN2
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN3 ("LAN3")       - LAN3
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN4 ("LAN4")       - LAN4
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN5 ("LAN5")       - LAN5
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN6 ("LAN6")       - LAN6
-IVIFGEN_VAL_TRIGGER_SOURCE_LAN7 ("LAN7")       - LAN7
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI0 ("LXI0")       - LXI Trigger Bus Line 0
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI1 ("LXI1")       - LXI Trigger Bus Line 1
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI2 ("LXI2")       - LXI Trigger Bus Line 2
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI3 ("LXI3")       - LXI Trigger Bus Line 3
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI4 ("LXI4")       - LXI Trigger Bus Line 4
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI5 ("LXI5")       - LXI Trigger Bus Line 5
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI6 ("LXI6")       - LXI Trigger Bus Line 6
-IVIFGEN_VAL_TRIGGER_SOURCE_LXI7 ("LXI7")       - LXI Trigger Bus Line 7
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL0 ("TTL0")       - TTL Interface 0
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL1 ("TTL1")       - TTL Interface 1
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL2 ("TTL2")       - TTL Interface 2
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL3 ("TTL3")       - TTL Interface 3
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL4 ("TTL4")       - TTL Interface 4
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL5 ("TTL5")       - TTL Interface 5
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL6 ("TTL6")       - TTL Interface 6
-IVIFGEN_VAL_TRIGGER_SOURCE_TTL7 ("TTL7")       - TTL Interface 7
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_STAR ("PXI_STAR")   - PXI Star Interface
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG0 ("PXI_TRIG0")  - PXI Trigger Bus Line 0
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG1 ("PXI_TRIG1")  - PXI Trigger Bus Line 1
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG2 ("PXI_TRIG2")  - PXI Trigger Bus Line 2
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG3 ("PXI_TRIG3")  - PXI Trigger Bus Line 3
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG4 ("PXI_TRIG4")  - PXI Trigger Bus Line 4
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG5 ("PXI_TRIG5")  - PXI Trigger Bus Line 5
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG6 ("PXI_TRIG6")  - PXI Trigger Bus Line 6
-IVIFGEN_VAL_TRIGGER_SOURCE_PXI_TRIG7 ("PXI_TRIG7")  - PXI Trigger Bus Line 7
-IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARA ("PXIe_DSTARA")  
-                                     - PXI Express DStar Line A
-IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARB ("PXIe_DSTARB")  
-                                     - PXI Express DStar Line B
-IVIFGEN_VAL_TRIGGER_SOURCE_PXIE_DSTARC ("PXIe_DSTARC")  
-                                     - PXI Express DStar Line C
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI0 ("RTSI0")      - RTSI Bus Line 0
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI1 ("RTSI1")      - RTSI Bus Line 1 
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI2 ("RTSI2")      - RTSI Bus Line 2
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI3 ("RTSI3")      - RTSI Bus Line 3
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI4 ("RTSI4")      - RTSI Bus Line 4
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI5 ("RTSI5")      - RTSI Bus Line 5
-IVIFGEN_VAL_TRIGGER_SOURCE_RTSI6 ("RTSI6")      - RTSI Bus Line 6
-</Property>
+After you call the IviFgen_InitiateGeneration VI, the function generator waits for the trigger you specify in this parameter. After it receives a trigger, the function generator produces output based on the value of the IviFgen &gt;&gt; Basic Operation&gt;&gt;Operation Mode property.
+
+Defined Values:
+IVIFGEN_VAL_INTERNAL_TRIGGER - Internal
+IVIFGEN_VAL_EXTERNAL         - External
+IVIFGEN_VAL_SOFTWARE_TRIG    - Software Trigger Function
+IVIFGEN_VAL_TTL0             - PXI TRIG0 or VXI TTL0
+IVIFGEN_VAL_TTL1             - PXI TRIG1 or VXI TTL1
+IVIFGEN_VAL_TTL2             - PXI TRIG2 or VXI TTL2
+IVIFGEN_VAL_TTL3             - PXI TRIG3 or VXI TTL3
+IVIFGEN_VAL_TTL4             - PXI TRIG4 or VXI TTL4
+IVIFGEN_VAL_TTL5             - PXI TRIG5 or VXI TTL5
+IVIFGEN_VAL_TTL6             - PXI TRIG6 or VXI TTL6
+IVIFGEN_VAL_TTL7             - PXI TRIG7 or VXI TTL7
+IVIFGEN_VAL_ECL0             - VXI ECL0
+IVIFGEN_VAL_ECL1             - VXI ECL1
+IVIFGEN_VAL_PXI_STAR         - PXI Star
+IVIFGEN_VAL_RTSI_0           - RTSI line 0
+IVIFGEN_VAL_RTSI_1           - RTSI line 1
+IVIFGEN_VAL_RTSI_2           - RTSI line 2
+IVIFGEN_VAL_RTSI_3           - RTSI line 3
+IVIFGEN_VAL_RTSI_4           - RTSI line 4
+IVIFGEN_VAL_RTSI_5           - RTSI line 5
+IVIFGEN_VAL_RTSI_6           - RTSI line 6
+
+Default Value:
+IVIFGEN_VAL_EXTERNAL - External</Property>
 			<Property Name="featurePacks" Type="Str">Description,Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">50</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
