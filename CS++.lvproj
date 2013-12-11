@@ -335,6 +335,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
 				<Item Name="CS++DMMGui.lvlib" Type="Library" URL="../Devices/Base/CS++DMMGui/CS++DMMGui.lvlib"/>
 				<Item Name="CS++Fgen.lvlib" Type="Library" URL="../Devices/Base/CS++Fgen/CS++Fgen.lvlib"/>
+				<Item Name="CS++FgenGui.lvlib" Type="Library" URL="../Devices/Base/CS++FgenGui/CS++FgenGui.lvlib"/>
 			</Item>
 			<Item Name="IVI" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
