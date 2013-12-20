@@ -48,5 +48,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Messages" Type="Folder">
+		<Item Name="Update PV Msg.lvclass" Type="LVClass" URL="../../CS++DCPwrGui Messages/Update PV Msg/Update PV Msg.lvclass"/>
+	</Item>
 	<Item Name="CS++FgenGui.lvclass" Type="LVClass" URL="../CS++FgenGui.lvclass"/>
 </Library>
