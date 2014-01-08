@@ -20,6 +20,7 @@ External Dependencies
 - Syslog; Refer to http://sine.ni.com/nips/cds/view/p/lang/de/nid/209116
 - Monitored Actor; Refer to https://decibel.ni.com/content/thread/18301 and http://lavag.org/topic/17056-monitoring-actors
 
+- CS++UserContents.vi; Include your project specific Content-VIs in a corresponding case of the conditional disable structure. This VI is included in the "Launch CS++StartActor.vi". This makes building an application convenient since the application builder can find all dependencies in the VI-Hierarchy.
 
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
