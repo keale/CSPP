@@ -15,6 +15,12 @@ Related documents and information
   - NI Actor Framework: https://decibel.ni.com/content/groups/actor-framework-2011?view=overview
   - CS Framework: http://wiki.gsi.de/cgi-bin/view/CSframework/WebHome
 
+External Dependencies
+=================================
+- Syslog; Refer to http://sine.ni.com/nips/cds/view/p/lang/de/nid/209116
+- Monitored Actor; Refer to https://decibel.ni.com/content/thread/18301 and http://lavag.org/topic/17056-monitoring-actors
+
+
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 

@@ -1,0 +1,3 @@
+- CS++UserContent.vi
+  - Remove project specific content-VIs.
+  - Set conditional disable symbol "BuildContent=Example"

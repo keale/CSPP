@@ -360,6 +360,10 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="detspec.doc" Type="Document" URL="../Documentation/detspec.doc"/>
 				<Item Name="userman.doc" Type="Document" URL="../Documentation/userman.doc"/>
 			</Item>
+			<Item Name="Change_Log.txt" Type="Document" URL="../Change_Log.txt"/>
+			<Item Name="Github Checklist.txt" Type="Document" URL="../Github Checklist.txt"/>
+			<Item Name="README.txt" Type="Document" URL="../README.txt"/>
+			<Item Name="Release_Notes.txt" Type="Document" URL="../Release_Notes.txt"/>
 		</Item>
 		<Item Name="EUPL License" Type="Folder">
 			<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
