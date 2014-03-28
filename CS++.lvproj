@@ -700,13 +700,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="LV-Patches.lvlib" Type="Library" URL="../../LV_Patches/LV-Patches.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvDataFinder.dll" Type="Document" URL="/&lt;nishared&gt;/DataFinder/Toolkit/2013/lvDataFinder.dll"/>
-			<Item Name="MEGGER-S1-xxx.lvlib" Type="Library" URL="../../Projects/STF/Device Actors/MEGGER-S1-xxx/MEGGER-S1-xxx.lvlib"/>
 			<Item Name="MF_PCEMP.lvlib" Type="Library" URL="../../Projects/SCMT/MF_PCEMP.lvlib"/>
 			<Item Name="Mole Data Analysis.lvlib" Type="Library" URL="../../Projects/SCMT/Measurement/Mole Data Analysis/Mole Data Analysis.lvlib"/>
 			<Item Name="Mole Data Evaluation.lvlib" Type="Library" URL="../../Projects/SCMT/Evaluation/Mole Data Evaluation.lvlib"/>
 			<Item Name="Mole.lvlib" Type="Library" URL="../../Projects/STF/Libraries/Mole/Mole.lvlib"/>
 			<Item Name="Mole_TDMS_List.lvlib" Type="Library" URL="../../Projects/STF/Mole Actors/Mole TDMS List/Mole_TDMS_List.lvlib"/>
-			<Item Name="STF-Devices-Content.vi" Type="VI" URL="../../Projects/STF/Device Actors/STF-Devices-Content.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CSPP Application" Type="EXE">
