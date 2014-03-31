@@ -22,263 +22,6 @@ Eine Kopie der Lizenz finden Sie hier: http://www.osor.eu/eupl
 Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher Form vereinbart, wird die unter der Lizenz verbreitete Software "so wie sie ist", OHNE JEGLICHE GEWÄHRLEISTUNG ODER BEDINGUNGEN - ausdrücklich oder stillschweigend - verbreitet.
 
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
-	<Property Name="varPersistentID:{02681964-31F4-44E2-904C-CFD65E2AAEE4}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ErrorMessage</Property>
-	<Property Name="varPersistentID:{0308C986-26EE-4852-8315-5C04453CB67D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OutputEnable_0</Property>
-	<Property Name="varPersistentID:{0377ACEA-63C0-42E2-8183-7488D84A2619}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AM-ModulationWaveform</Property>
-	<Property Name="varPersistentID:{038A6FDF-2640-421C-8A51-27B4DAEB5552}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Range_0</Property>
-	<Property Name="varPersistentID:{0408EB1E-3F5A-4112-92D8-3FF6E79CF9CC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_TriggerRate</Property>
-	<Property Name="varPersistentID:{041B94B1-3F46-4536-9C20-99EFD487B6B3}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Range_2</Property>
-	<Property Name="varPersistentID:{045F34EA-59EC-4727-A078-9A520D3C5363}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_SampleClockSource</Property>
-	<Property Name="varPersistentID:{04E7FA87-FCB0-4E2F-B270-289AFDDF2A68}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_VoltageLevel_0</Property>
-	<Property Name="varPersistentID:{058FDFF7-8345-4B7F-A112-F17946B7EE92}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SampleCount</Property>
-	<Property Name="varPersistentID:{05B871FB-52D7-46A7-96A0-7EDFCE70FCBB}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TransducerType</Property>
-	<Property Name="varPersistentID:{0641495A-AE4D-4B97-97D3-51A33577FCB3}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AdvancedTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{06515780-6614-42C0-9CF2-E8E2075FC4F0}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ResourceName</Property>
-	<Property Name="varPersistentID:{07FCA222-1781-47CB-8F05-828A699DD8AD}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_Waveform_0</Property>
-	<Property Name="varPersistentID:{0A4DF13A-3ED3-4C82-B592-88AFE505B9E1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_DriverRevision</Property>
-	<Property Name="varPersistentID:{0A7CDD3F-8340-48D6-A3C1-176C7960AC4C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{0B9FB986-8614-46EE-A2C7-8C534230D0F5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AM-Source_0</Property>
-	<Property Name="varPersistentID:{0E892C92-FC02-47F3-A210-AF07FA7EEAE5}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorMessage</Property>
-	<Property Name="varPersistentID:{0F4ECE33-2D67-4F34-A11C-79BC5B152AAE}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_CurrentLimit_0</Property>
-	<Property Name="varPersistentID:{137F9A6B-1AE3-4122-8ADA-A24E06E43FAE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_MaxCurrentLimit_2</Property>
-	<Property Name="varPersistentID:{13BF00F9-82A0-455F-982A-6376DA759ADB}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_DriverRevision</Property>
-	<Property Name="varPersistentID:{146BDE41-6322-4FC9-B8E5-2C66EC71C6AF}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_Frequency_0</Property>
-	<Property Name="varPersistentID:{151DA807-6E41-4DD2-B71A-6C8601B46A8E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_MaxVoltageLevel_0</Property>
-	<Property Name="varPersistentID:{1716BFCF-1960-471A-B7E1-91D1120725E3}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_DriverRevision</Property>
-	<Property Name="varPersistentID:{17B6B389-0B6A-4D6A-ABE8-068E0F4B1AB4}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AM-Enabled_0</Property>
-	<Property Name="varPersistentID:{194D43BE-C373-461D-9AA9-198F77BB3DE8}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_SampleClockSource</Property>
-	<Property Name="varPersistentID:{1B52303B-92DC-4E46-9342-2169FF85963C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ResumeTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{1B9D36B3-C1DC-41BF-9023-9D338EFA90BE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_RangeType_2</Property>
-	<Property Name="varPersistentID:{1D5432E2-FE3E-4EA6-93C7-DBFB11D7CAFB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_FM-ModulationFrequency</Property>
-	<Property Name="varPersistentID:{1E0106C6-FF4D-4A99-AF4C-8B4EE37E6827}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerVoltageLevel_1</Property>
-	<Property Name="varPersistentID:{1E8A90AE-3E6C-408E-97C8-188F0E176674}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SampleInterval</Property>
-	<Property Name="varPersistentID:{1EB7BFF9-3AE7-4721-9766-5138AE85643F}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SampleTrigger</Property>
-	<Property Name="varPersistentID:{1EE7106A-2BBC-49B0-809F-FB4D0E8FE3D9}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerVoltageLevel_2</Property>
-	<Property Name="varPersistentID:{1F93706B-1F50-4F2D-BC11-492BFE753372}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_Amplitude_0</Property>
-	<Property Name="varPersistentID:{1FE36E3E-E36A-4B15-8EA6-A4E4BCF96243}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TriggerCount</Property>
-	<Property Name="varPersistentID:{209E04ED-842B-42CD-8AEB-9927E312212A}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{20CC3A12-20A9-4581-8B14-7A3F54B2D817}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_BurstCount_0</Property>
-	<Property Name="varPersistentID:{2129AA1F-6070-43B8-B59E-842A589BB8AE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_A_1</Property>
-	<Property Name="varPersistentID:{217F8C5B-C78F-42B9-8064-8318CD319179}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_FM-ModulationWaveform</Property>
-	<Property Name="varPersistentID:{21DC7D95-DFBD-4AFC-B896-03CC6D436DDF}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_StartTriggerSource_0</Property>
-	<Property Name="varPersistentID:{222E620A-7E26-4F3F-BA46-D94758F22723}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_StartTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{22336FBB-6016-4E61-A28B-8EB0F1046B67}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{23D3275E-587E-4147-A591-6A43564B14FC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OutputEnable_1</Property>
-	<Property Name="varPersistentID:{25C52B82-64AE-4A67-B047-B9874C95A9E3}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_FixedReferenceJunction</Property>
-	<Property Name="varPersistentID:{26A4688E-5E7A-4375-8C4A-916A7A5C38C1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{27C6B840-B429-4C02-AAC9-536FF6B92137}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_SampleClockOutputEnabled</Property>
-	<Property Name="varPersistentID:{2972586A-A9F0-4860-B767-08D9266BB8A2}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AM-ModulationWaveform</Property>
-	<Property Name="varPersistentID:{29B5822F-540D-4AE7-B754-AD174752DF55}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{2AE7F8A3-D61E-4A2E-8B24-83B88589ADC6}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ErrorMessage</Property>
-	<Property Name="varPersistentID:{2AF1C4CA-653B-46C0-8305-D14864CEC2B5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_FM-Source_0</Property>
-	<Property Name="varPersistentID:{2AF886F9-7570-459B-A449-08189DA64D64}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_MaxVoltageLevel_1</Property>
-	<Property Name="varPersistentID:{2B6FB764-96F0-42B8-800C-BEF5A27ECAE4}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_StopTriggerSource_0</Property>
-	<Property Name="varPersistentID:{2BFA0934-D0E0-40AD-9B6D-6BB42E63FD53}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_TriggerSource_0</Property>
-	<Property Name="varPersistentID:{2C92BD19-3765-4287-A131-58512D4D7DAE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_V_1</Property>
-	<Property Name="varPersistentID:{2CB10B8F-5F8F-495D-A645-8EB619996145}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_VoltageLevel_0</Property>
-	<Property Name="varPersistentID:{2DA3D9CA-2A1D-43CC-9ABA-CAA8533DD317}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TriggerCount</Property>
-	<Property Name="varPersistentID:{2F13840F-FB70-4713-9868-5F2239FDC47A}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_StopTriggerSource_0</Property>
-	<Property Name="varPersistentID:{2F2D0C45-C28C-471E-9D1D-4E421AFED9AA}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_CurrentLimit_1</Property>
-	<Property Name="varPersistentID:{2F8EA3E9-7AAF-4D68-87D1-D29981472345}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_Resistance</Property>
-	<Property Name="varPersistentID:{300D710D-AB99-4E39-9C62-89E66FD7849E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerSource_2</Property>
-	<Property Name="varPersistentID:{312591B2-0C86-4EF3-9FA7-C39EB6D19942}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{31784372-94A6-4FA8-BFCD-CCA6EE492E47}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ThermocoupleType</Property>
-	<Property Name="varPersistentID:{322677A2-7F3E-45A8-8B8E-FD3A8C4DF554}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_MeasurementFunction</Property>
-	<Property Name="varPersistentID:{34B1D987-D215-4FC1-AD09-EBB63CA3F334}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_A_2</Property>
-	<Property Name="varPersistentID:{3505A4B1-BA76-4FAA-B527-89A34A6F7E1C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ErrorMessage</Property>
-	<Property Name="varPersistentID:{3629253A-6554-4B6D-A7D5-AC939E24F776}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_InState_1</Property>
-	<Property Name="varPersistentID:{363F8839-6F60-4B40-B7AB-CE827CD431C4}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{381B24E3-A38E-4715-826F-5640BE2E8A64}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ActualRange</Property>
-	<Property Name="varPersistentID:{384FE696-4F79-4017-B005-A607BA606172}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{3961D32F-F9C4-4DB5-A289-41FAE6BF4D1C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AdvancedTriggerSource_0</Property>
-	<Property Name="varPersistentID:{3A010850-8D29-42FF-8D5C-0C9172B5C085}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OVPEnabled_0</Property>
-	<Property Name="varPersistentID:{3A1A0BBF-4B71-459D-9484-29C3E6D17D4E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_DriverRevision</Property>
-	<Property Name="varPersistentID:{3B2EF199-5AFD-4E70-A7DD-79DC8464F0B3}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_InState_2</Property>
-	<Property Name="varPersistentID:{3BFF824E-774A-4C1F-980E-12420BCCFEEA}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_OVPLimit_0</Property>
-	<Property Name="varPersistentID:{3C649A39-9A7C-4F47-A5B1-0BCC60EC5015}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_MPReading</Property>
-	<Property Name="varPersistentID:{3D40924A-D474-4842-806C-EC48949494FC}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AM-Enabled_0</Property>
-	<Property Name="varPersistentID:{404587BA-4D79-47CC-B27C-93C372BD41E9}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Range_0</Property>
-	<Property Name="varPersistentID:{421F2E9F-5CCE-4463-9574-051BCEA94DB0}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_FM-Enabled_0</Property>
-	<Property Name="varPersistentID:{430A5999-DA5D-43F0-B7C2-DDC642F5F55C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_V_2</Property>
-	<Property Name="varPersistentID:{43C63A1D-B736-43E8-87D1-DF6531062217}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_FrequencyVoltageRange</Property>
-	<Property Name="varPersistentID:{4675A581-6778-42B9-B7DC-55F792B8E291}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_FM-ModulationFrequency</Property>
-	<Property Name="varPersistentID:{46BDBC35-FF4F-4FE0-93D0-440D6DFD12C7}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_Resistance</Property>
-	<Property Name="varPersistentID:{47065D8F-56D7-4442-B2BA-7D2056CACC44}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_RangeType_0</Property>
-	<Property Name="varPersistentID:{48013C78-44A1-4F6D-9283-FFBB48458562}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ACMaxFrequency</Property>
-	<Property Name="varPersistentID:{4CA00665-FB9C-4BC7-B766-BE8694B45118}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ReferenceClockSource</Property>
-	<Property Name="varPersistentID:{4CEB9038-A22E-4775-8520-7B1B2F83D9CD}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_MeasCompleteDestination</Property>
-	<Property Name="varPersistentID:{4EAB7304-93CB-4BF6-8FD7-C2B53CF47166}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TriggerSlope</Property>
-	<Property Name="varPersistentID:{4FE2D048-917B-40B1-8CF8-A1440A9AC731}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OutputEnable_0</Property>
-	<Property Name="varPersistentID:{518CF258-4676-4A93-BF14-2A2B8D58B42D}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OVPEnabled_1</Property>
-	<Property Name="varPersistentID:{52A1D454-0A2A-4296-A4DE-AE86AE14BAC1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_Reading</Property>
-	<Property Name="varPersistentID:{54231B17-34C9-4F10-AF4D-7B015BE48C6C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_AutoZeroMode</Property>
-	<Property Name="varPersistentID:{5768E916-C778-4E55-B48F-C0920C10AE8D}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_FM-ModulationWaveform</Property>
-	<Property Name="varPersistentID:{58236539-A735-420E-971A-02255A2D6872}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ApertureTimeUnit</Property>
-	<Property Name="varPersistentID:{59F5A780-AE7E-4000-AD72-C92B277E03AF}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_TriggerSource_0</Property>
-	<Property Name="varPersistentID:{5A0BDAD6-294F-4D99-AD9F-910E73378A39}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ACMinFrequency</Property>
-	<Property Name="varPersistentID:{5A1037BA-487C-4204-88F3-5234DAEC6613}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_VoltageLevel_2</Property>
-	<Property Name="varPersistentID:{5B9B68F5-1064-419A-AE13-7C21EB0CFDE2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_CurrentLimit_2</Property>
-	<Property Name="varPersistentID:{5CC616AE-BFD7-4AB2-AA37-2C694DDDE55D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_SampleRate</Property>
-	<Property Name="varPersistentID:{5D399AF7-995E-4EC7-A31A-F1DDD3BDE72C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_ResourceName</Property>
-	<Property Name="varPersistentID:{5F1BEE43-A391-4069-92E1-0C136EF52109}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AM-Source_0</Property>
-	<Property Name="varPersistentID:{60B6FEEA-24D8-49E7-B052-D4D859E96BC6}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TriggerDelay</Property>
-	<Property Name="varPersistentID:{61EDB2DA-2CC4-4FDC-8B72-C58F598F3745}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OVPLimit_2</Property>
-	<Property Name="varPersistentID:{628F804C-5048-40E4-B0ED-B7F849079D61}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{62DE157C-CB15-4AE7-B4FB-49909FF83388}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_SampleRate</Property>
-	<Property Name="varPersistentID:{65653256-C167-4712-9157-A95AD17ACFD2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_FixedReferenceJunction</Property>
-	<Property Name="varPersistentID:{67DAEACF-7048-45F2-810A-18C4A591468F}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_Waveform_0</Property>
-	<Property Name="varPersistentID:{67F9A10B-3983-4F15-B33A-35B8B7603498}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{68C62996-1C30-49AD-904F-8B0061DF2E9C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ApertureTime</Property>
-	<Property Name="varPersistentID:{6A3E7F02-E68E-4599-BA9C-1AC0C1D82808}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_DesiredOutputState_0</Property>
-	<Property Name="varPersistentID:{6ABE2CB0-1B6F-40E2-B29E-468F121DA3CD}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_StartPhase_0</Property>
-	<Property Name="varPersistentID:{6AD35925-5046-40A2-A7FD-46014D6B0F19}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_Alpha</Property>
-	<Property Name="varPersistentID:{6AEA9788-B5A2-4127-B120-568823481DBB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorCode</Property>
-	<Property Name="varPersistentID:{6C3C397B-1CA7-496E-AA20-6B551117CC12}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{6D6C66BF-FBE8-472C-A37F-82B8031670F5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerCurrentLimit_1</Property>
-	<Property Name="varPersistentID:{6DB29EC3-F8EE-4EEB-A234-CC1EF6BD95F4}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_TriggerRate</Property>
-	<Property Name="varPersistentID:{6DEAC549-A761-4192-9244-1B1A6F7150D0}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ErrorMessage</Property>
-	<Property Name="varPersistentID:{75C934E4-5FD7-4C19-9509-2046D0468838}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_IsOverRange</Property>
-	<Property Name="varPersistentID:{76DDC52F-1132-42AC-8DF9-7FEAFCAF40CC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Range_1</Property>
-	<Property Name="varPersistentID:{7848A41E-1CFA-46B3-8EE8-CEDE74BB02E5}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_TriggerVoltageLevel_0</Property>
-	<Property Name="varPersistentID:{7949C6B8-A2FD-4370-A7C4-862BF497A3D9}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_BurstCount_0</Property>
-	<Property Name="varPersistentID:{798FE01C-A1E0-4F93-A42B-55FEBA28C023}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_DesiredOutputState_0</Property>
-	<Property Name="varPersistentID:{7A0F81C3-839F-41EF-BF9D-5A91D45171D4}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OVPLimit_1</Property>
-	<Property Name="varPersistentID:{7A5F67F6-09D2-4757-BCDB-05447B769F8E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ErrorCode</Property>
-	<Property Name="varPersistentID:{7A766E03-4274-4D22-9FC3-FD6A23CBD01E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDouble</Property>
-	<Property Name="varPersistentID:{7B6F0AF9-174D-4C6E-9AFB-9EEB182FAE80}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_Range</Property>
-	<Property Name="varPersistentID:{7EC69BE5-2863-4979-8108-5434D4EE968B}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AM-ModulationFrequency</Property>
-	<Property Name="varPersistentID:{7F2179C9-C8FE-43F8-8915-FC7595C7EF90}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ResourceName</Property>
-	<Property Name="varPersistentID:{80253522-F273-40FF-87FC-CFCE8A8A8425}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_StartPhase_0</Property>
-	<Property Name="varPersistentID:{805FF779-26A3-46F0-B196-767F505DE22F}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TransducerType</Property>
-	<Property Name="varPersistentID:{811A70D1-BE9A-4C79-9072-BA3744A3379C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_MaxVoltageLevel_2</Property>
-	<Property Name="varPersistentID:{81B7EFB8-11A8-4A41-8074-7FE5DEB12BA1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TriggerSource</Property>
-	<Property Name="varPersistentID:{82DC0A17-434B-48BC-AE85-3F831F22573A}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TriggerDelay</Property>
-	<Property Name="varPersistentID:{831311DE-1569-4BF3-B05D-99680973F91C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{84DA59CF-ACF3-4D6B-8A6C-C0A5E27BB6DE}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_NumberOfChannels</Property>
-	<Property Name="varPersistentID:{8682FBB4-1548-4C49-B0FD-8712C2837EED}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_StartTriggerSource_0</Property>
-	<Property Name="varPersistentID:{86A9EB30-EC5B-4403-9F65-127AA79672EC}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ThermocoupleType</Property>
-	<Property Name="varPersistentID:{88692145-EB79-4FAB-9CDC-3F1A383D8960}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerSource_0</Property>
-	<Property Name="varPersistentID:{88DCD2E2-B9C9-4F36-BC4E-06C311697568}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OutputEnable_2</Property>
-	<Property Name="varPersistentID:{89030D49-D540-4F17-B3CE-6AEC4181C3A1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_OutputImpedance_0</Property>
-	<Property Name="varPersistentID:{89C33CDB-DE44-4E43-AC4C-A93334270AD2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_DesiredOutputState_2</Property>
-	<Property Name="varPersistentID:{89D458B7-317C-4429-B747-B1809802C793}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_DesiredOutputState_1</Property>
-	<Property Name="varPersistentID:{89F1E856-3CCB-4F69-A2DA-FB87850AEDBD}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ResumeTriggerSource_0</Property>
-	<Property Name="varPersistentID:{8A05A114-85DD-4408-82E4-1390534F55B2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_ErrorMessage</Property>
-	<Property Name="varPersistentID:{8AE5A314-1F28-4DA8-A73F-F109EC39BA04}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{8B4B391F-9C50-41E3-A3E4-9EEA67679D0C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AM-ModulationDepth</Property>
-	<Property Name="varPersistentID:{8C9410AE-D28B-466E-A12F-A85CF812DB84}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_V_0</Property>
-	<Property Name="varPersistentID:{8EC7A7E5-C700-4F01-910A-F93BADA1F439}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_CurrentLimit_0</Property>
-	<Property Name="varPersistentID:{90448A36-1622-4F10-BBF7-E1A93CC6B5A5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_MaxVoltageLevel_0</Property>
-	<Property Name="varPersistentID:{9358A47F-4777-4263-B62A-2C4A800E9726}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_VoltageLevel_1</Property>
-	<Property Name="varPersistentID:{9402B076-3F1F-4520-97CC-9E3D9B204AE1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ReferenceJunctionType</Property>
-	<Property Name="varPersistentID:{94AB46B2-4ED2-4B0C-8F9A-D7A876840C73}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AdvancedTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{9A110534-392F-40ED-AFB0-F06888D6DCD3}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_OutputImpedance_0</Property>
-	<Property Name="varPersistentID:{9AB5DAF3-285D-443C-B8FE-8367E0728F6A}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorCode</Property>
-	<Property Name="varPersistentID:{9B74AA81-7AD6-4905-A9B9-C0CDC5D5EB37}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_MaxCurrentLimit_1</Property>
-	<Property Name="varPersistentID:{9BE13320-80D7-4271-BC87-4688886ADE64}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_RangeType_0</Property>
-	<Property Name="varPersistentID:{9E503BC6-31FE-4F9C-8E4D-66FE353DA8F9}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_MaxCurrentLimit_0</Property>
-	<Property Name="varPersistentID:{9EBAECD7-7C5A-49EB-A74B-971DECA3C4B2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Behavior_0</Property>
-	<Property Name="varPersistentID:{9FC4C93B-0A8D-428C-94AB-49B0FE3D67A5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_MeasCompleteDestination</Property>
-	<Property Name="varPersistentID:{A1C56C67-86BA-4368-820E-81146B41101C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OVPLimit_0</Property>
-	<Property Name="varPersistentID:{A29A0B0D-F26C-4E3C-B726-83335C3B73FF}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_TriggerCurrentLimit_0</Property>
-	<Property Name="varPersistentID:{A2A6BAC5-87CF-41E6-AACD-94E1D816A0B9}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_TriggerSource_0</Property>
-	<Property Name="varPersistentID:{A3D9703D-0C91-4798-A376-394E0F280FF2}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ReferenceClockSource</Property>
-	<Property Name="varPersistentID:{A509D6E2-9B8F-477B-A2D5-2846AE7BFD0F}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ResumeTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{A52A8305-5456-43FF-B78E-F3535E070765}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{A7855CB4-C0B3-4933-A028-E296305F239E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_SampleClockOutputEnabled</Property>
-	<Property Name="varPersistentID:{A7F3A404-30F5-44FF-80D7-0450F33475DE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_V_0</Property>
-	<Property Name="varPersistentID:{A82887D3-7665-49CF-8190-608EBF4D5679}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ResourceName</Property>
-	<Property Name="varPersistentID:{A8A3DFCF-9B81-4E9A-BE98-E1B87E47127D}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AM-ModulationDepth</Property>
-	<Property Name="varPersistentID:{A9879E09-D325-4548-AC07-654D5DF52BB6}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_StopTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{AACCF4A0-C51D-44D7-A82D-39B7DE15B43D}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_DCOffset_0</Property>
-	<Property Name="varPersistentID:{AB597190-1416-487F-B855-790712BC07EC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_FM-PeakDeviation</Property>
-	<Property Name="varPersistentID:{ABAD4B1F-38F6-4A4C-8DAE-A1B71A3D11D1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ErrorCode</Property>
-	<Property Name="varPersistentID:{ADC981F8-3925-416E-A976-3850DAB10EA0}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerCurrentLimit_0</Property>
-	<Property Name="varPersistentID:{ADCDCAC4-0FEC-4EFE-A6C2-7CA420E1E6BB}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{AEC43C56-A58C-4E12-8E7E-5CF6BCEFF074}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OVPEnabled_0</Property>
-	<Property Name="varPersistentID:{AF8E432A-2A23-484A-B144-64956F4A29A8}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SampleInterval</Property>
-	<Property Name="varPersistentID:{B101D5C9-6013-4D5C-AB99-E20560085DCC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_NumberOfChannels</Property>
-	<Property Name="varPersistentID:{B1689DD8-346D-4A28-B8DC-A7045DC3ABBF}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_OVPEnabled_2</Property>
-	<Property Name="varPersistentID:{B198AF19-248B-4075-A199-0518C6AC8DC6}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_Reading</Property>
-	<Property Name="varPersistentID:{B2ED0E9E-6485-4230-8DBF-00342ED19911}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_PowerLineFrequency</Property>
-	<Property Name="varPersistentID:{B360C7D9-236F-4663-BA4D-AB89C7BFE15D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_OutputMode</Property>
-	<Property Name="varPersistentID:{B64A5A2C-250F-4AD2-B68A-62BC4AC4E8EB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ActualRange</Property>
-	<Property Name="varPersistentID:{B715E1AF-F955-4F9D-A28B-86289CF7A0BF}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ErrorCode</Property>
-	<Property Name="varPersistentID:{B7A1ACC9-59EA-4E88-8C34-07DA041FABF9}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ResourceName</Property>
-	<Property Name="varPersistentID:{B863CCA5-E5F2-455D-AA69-327E52712695}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_AutoZeroMode</Property>
-	<Property Name="varPersistentID:{BAA3D5D7-B5EA-427D-BA85-3E4ACF53D456}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Measure_A_0</Property>
-	<Property Name="varPersistentID:{BAC43AA6-4B8F-44B2-A8A4-626E840DB112}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{BBC426B1-01D7-47C5-BE4E-96CC00094EFB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ChannelEnabled_0</Property>
-	<Property Name="varPersistentID:{BE8E7B3B-0DBA-4982-8725-81E57797FF9E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_FM-PeakDeviation</Property>
-	<Property Name="varPersistentID:{C1BF85D6-20A7-4F31-93EB-18EB93C4BCF1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_DriverRevision</Property>
-	<Property Name="varPersistentID:{C47B2A1F-1DC9-4A7C-922D-BD5F0F8E1A2D}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Behavior_2</Property>
-	<Property Name="varPersistentID:{C5148013-93EC-4EE5-82FA-478B82AECC16}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_InState_0</Property>
-	<Property Name="varPersistentID:{C9F95FE0-43CE-49DE-B0F2-3EED69D29137}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{CB52626B-1904-4313-8085-C78A99F170BB}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{CB9FA122-6204-48CB-9A94-C2CF5AA7F70F}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_AM-ModulationFrequency</Property>
-	<Property Name="varPersistentID:{CC2F8E90-9BBE-441B-9C2F-0CF5E846FEA5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_Alpha</Property>
-	<Property Name="varPersistentID:{CE572BD0-0C84-4F51-8697-E720EE014E76}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_ResourceName</Property>
-	<Property Name="varPersistentID:{CE7EBB50-C02E-4E6C-B774-30FD1FD8B08E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_Arb-Frequency_0</Property>
-	<Property Name="varPersistentID:{CEB75A18-26F2-49A2-9905-26EC5ADCC8EC}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_AbsoluteResolution</Property>
-	<Property Name="varPersistentID:{CF8D0786-E4FB-4044-98F2-8E1742BCF854}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_TriggerSource</Property>
-	<Property Name="varPersistentID:{CFB411D8-7A44-46BB-95EB-94C4E4267326}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerSource_1</Property>
-	<Property Name="varPersistentID:{CFB7C4AB-D214-4016-90A0-B5CDAE6FACAF}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{D052E9ED-F2F4-4B23-A564-A879B26551A3}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ACMinFrequency</Property>
-	<Property Name="varPersistentID:{D156CC9F-AD52-43A6-AD01-2E1397FA6746}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ResourceName</Property>
-	<Property Name="varPersistentID:{D3A3D10B-6173-4659-A7CF-34AD28127B2D}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_AbsoluteResolution</Property>
-	<Property Name="varPersistentID:{D8F94553-5B1A-4B4B-B650-E27298680E89}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_AdvancedTriggerSource_0</Property>
-	<Property Name="varPersistentID:{D8FB199B-7036-4670-B3A2-E39E2FD2C444}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerCurrentLimit_2</Property>
-	<Property Name="varPersistentID:{DA0A38A1-191D-4420-9F11-EABF3B775264}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_FM-Source_0</Property>
-	<Property Name="varPersistentID:{DCA99279-3CC9-4519-92F9-A271FD02F04C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_OperationMode_0</Property>
-	<Property Name="varPersistentID:{DDF98E79-CED9-4424-95B6-F96D58DEB606}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ResourceName</Property>
-	<Property Name="varPersistentID:{DE5C7B26-9423-4C1B-94E6-EC2626B9F2F1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{DED3A92C-9CD9-4787-A1E9-0C439C1AA7AE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_StopTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{DFF23874-1FA1-487B-ACBB-ED2E6C74CA5D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ErrorMessage</Property>
-	<Property Name="varPersistentID:{E107A2C7-A54C-4FBF-A260-E32BCFEC08B2}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{E1BA5E38-E1E6-4D90-97A8-B37E636BC0A7}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ApertureTime</Property>
-	<Property Name="varPersistentID:{E2862636-F187-4A7C-9F06-9CD5650F7FC7}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_Arb-Frequency_0</Property>
-	<Property Name="varPersistentID:{E2AA0B1B-D971-4D4B-8D88-D60152B011F1}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myString</Property>
-	<Property Name="varPersistentID:{E50EC7A3-C967-48C5-811E-97656FE8EEB0}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ReferenceJunctionType</Property>
-	<Property Name="varPersistentID:{E5489C4A-3FB2-4AD5-845F-74BA5464E69D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_MeasurementFunction</Property>
-	<Property Name="varPersistentID:{E5CA47C6-6353-4B01-BBB6-7451B651979E}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorMessage</Property>
-	<Property Name="varPersistentID:{E6794C86-F830-4B52-923E-F0A8B85553BB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_DriverRevision</Property>
-	<Property Name="varPersistentID:{E69E0AD8-FF4F-456F-9984-1605E3E974AA}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_TriggerSlope</Property>
-	<Property Name="varPersistentID:{E6D476BE-E9BF-4DEA-BB1E-35BCAE519209}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_PowerLineFrequency</Property>
-	<Property Name="varPersistentID:{E7AC8EB4-B495-4C33-9BDB-4E04D12FAD27}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_SelftestResultMessage</Property>
-	<Property Name="varPersistentID:{E7C97DD1-45BC-4FC3-B297-29CBFEA3507B}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_FM-Enabled_0</Property>
-	<Property Name="varPersistentID:{E9E45C75-40A4-4703-934E-573BEAC0727F}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ErrorCode</Property>
-	<Property Name="varPersistentID:{EAA35869-470E-4E13-BD1F-E0D9D29BF858}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_SampleTrigger</Property>
-	<Property Name="varPersistentID:{EBA1CF72-6E2A-4853-866B-B0E9F629C100}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_NumberOfChannels</Property>
-	<Property Name="varPersistentID:{EBC4D379-50C6-4829-B567-47FE8DEA55BD}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_SampleCount</Property>
-	<Property Name="varPersistentID:{EC475A15-79F6-409A-8161-AA924F41648D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_DriverRevision</Property>
-	<Property Name="varPersistentID:{EC5EE1CE-CC84-4661-BBA2-4FFDE3072D7C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myBoolean</Property>
-	<Property Name="varPersistentID:{EC7AE088-5F60-4754-A6D9-ECCD88B022DA}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_IsOverRange</Property>
-	<Property Name="varPersistentID:{ED9246B5-DD5B-4E0E-8C8B-0B8C2C220FDC}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_DCOffset_0</Property>
-	<Property Name="varPersistentID:{EE181335-3174-483A-8351-1BD56D0779A8}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_FrequencyVoltageRange</Property>
-	<Property Name="varPersistentID:{EEB6ADD6-B6CC-42A1-BBBB-4F5089D4C3D1}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_ErrorCode</Property>
-	<Property Name="varPersistentID:{EEE63F01-71DE-4159-A0A9-1F6C6319FDBC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_Amplitude_0</Property>
-	<Property Name="varPersistentID:{EFD705AD-9022-459B-A68F-DE52D2E2BC1C}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_InState_0</Property>
-	<Property Name="varPersistentID:{F03D7F21-DDD7-48DE-B34D-754DCFB2A447}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ResumeTriggerSource_0</Property>
-	<Property Name="varPersistentID:{F2A0E32D-9215-4076-9101-23BA96E9EDEB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_OutputMode</Property>
-	<Property Name="varPersistentID:{F3579A67-37CB-474B-9C83-DD53D3B32726}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_StartTriggerSlope_0</Property>
-	<Property Name="varPersistentID:{F37DA12B-8C1C-441E-A7AC-9858C6D3A8BB}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_SelftestResultCode</Property>
-	<Property Name="varPersistentID:{F394C8F1-0546-4B9D-A460-E87D89D481FE}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Measure_A_0</Property>
-	<Property Name="varPersistentID:{F39F94C1-2774-4373-8480-20D4E002EE81}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_Behavior_0</Property>
-	<Property Name="varPersistentID:{F3F931EF-6630-4830-AE74-A3C54F991BAC}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_DriverRevision</Property>
-	<Property Name="varPersistentID:{F42DC895-3F53-46A8-8B60-FFD186DA7020}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_ApertureTimeUnit</Property>
-	<Property Name="varPersistentID:{F55363DA-2E37-489C-9013-D6D9B6F989A9}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_RangeType_1</Property>
-	<Property Name="varPersistentID:{F69F05EA-E79E-4B9A-A277-3FA028C48E9D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_OperationMode_0</Property>
-	<Property Name="varPersistentID:{F6D200CC-A0DC-4B91-AC60-98D1FDA1F99A}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_Frequency_0</Property>
-	<Property Name="varPersistentID:{F70A7638-8E8D-4885-86CE-6C9A16CDF137}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_NumberOfChannels</Property>
-	<Property Name="varPersistentID:{F722766F-C449-45BF-BD01-263CBD9E4DF3}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myFgen/myFgen_ChannelEnabled_0</Property>
-	<Property Name="varPersistentID:{F77C3D52-A81F-494F-9482-6398B9FDFE2D}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDCPwr/myDCPwr_MaxCurrentLimit_0</Property>
-	<Property Name="varPersistentID:{F8BB2048-3BB8-4E78-98FD-F801262D1D2C}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDMM/myDMM_Range</Property>
-	<Property Name="varPersistentID:{FA269A7B-3352-472A-9023-7EB3EF33B3A8}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_Behavior_1</Property>
-	<Property Name="varPersistentID:{FA2C583D-38CB-4E0B-89F4-1135A4B0FD4E}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_ACMaxFrequency</Property>
-	<Property Name="varPersistentID:{FC14FA1C-B04A-4895-93EF-DF1F1A4872B2}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_ErrorCode</Property>
-	<Property Name="varPersistentID:{FD3CA18C-83AF-48FB-98C6-57FFB1E4808F}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myFgen/myFgen_FirmwareRevision</Property>
-	<Property Name="varPersistentID:{FDE013BE-5CFB-45BD-BBC6-28B0CF09D7E5}" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib/myDCPwr/myDCPwr_TriggerVoltageLevel_0</Property>
-	<Property Name="varPersistentID:{FEC0F5A1-D509-4990-8CAA-8253D07A8B7F}" Type="Ref">/My Computer/CS++Devices/BaseClasses/CS++DeviceBaseSV.lvlib/myDMM/myDMM_MPReading</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -292,12 +35,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="CS++AddOns" Type="Folder">
 			<Item Name="DIM" Type="Folder"/>
 			<Item Name="DSC" Type="Folder">
-				<Item Name="Actors" Type="Folder">
-					<Item Name="CS++DSCAlarmViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCAlarmViewer/CS++DSCAlarmViewer.lvlib"/>
-					<Item Name="CS++DSCTrendViewer.lvlib" Type="Library" URL="../DSC/Actors/CS++DSCTrendViewer/CS++DSCTrendViewer.lvlib"/>
-				</Item>
+				<Item Name="Actors" Type="Folder"/>
 				<Item Name="Classes" Type="Folder"/>
-				<Item Name="CS++DSCContent.vi" Type="VI" URL="../DSC/CS++DSCContent.vi"/>
 			</Item>
 		</Item>
 		<Item Name="CS++Core" Type="Folder">
@@ -327,27 +66,10 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="CS++Devices" Type="Folder">
 			<Item Name="BaseClasses" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="CS++DeviceBase-Content.vi" Type="VI" URL="../Devices/Base/CS++DeviceBase-Content.vi"/>
-				<Item Name="CS++Devices.ini" Type="Document" URL="../Devices/Base/CS++Devices.ini"/>
-				<Item Name="CS++DeviceBaseSV.lvlib" Type="Library" URL="../Devices/Base/CS++DeviceBaseSV.lvlib"/>
-				<Item Name="CS++DCPwr.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwr/CS++DCPwr.lvlib"/>
-				<Item Name="CS++DCPwrGui.lvlib" Type="Library" URL="../Devices/Base/CS++DCPwrGui/CS++DCPwrGui.lvlib"/>
-				<Item Name="CS++DMM.lvlib" Type="Library" URL="../Devices/Base/CS++DMM/CS++DMM.lvlib"/>
-				<Item Name="CS++DMMGui.lvlib" Type="Library" URL="../Devices/Base/CS++DMMGui/CS++DMMGui.lvlib"/>
-				<Item Name="CS++Fgen.lvlib" Type="Library" URL="../Devices/Base/CS++Fgen/CS++Fgen.lvlib"/>
-				<Item Name="CS++FgenGui.lvlib" Type="Library" URL="../Devices/Base/CS++FgenGui/CS++FgenGui.lvlib"/>
 			</Item>
 			<Item Name="IVI" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
-				<Item Name="IVI-Content.vi" Type="VI" URL="../Devices/IVI/IVI-Content.vi"/>
-				<Item Name="IVI_ACPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_ACPwr/IVI_ACPwr.lvlib"/>
-				<Item Name="IVI_Counter.lvlib" Type="Library" URL="../Devices/IVI/IVI_Counter/IVI_Counter.lvlib"/>
-				<Item Name="IVI_DCPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_DCPwr/IVI_DCPwr.lvlib"/>
-				<Item Name="IVI_DMM.lvlib" Type="Library" URL="../Devices/IVI/IVI_DMM/IVI_DMM.lvlib"/>
-				<Item Name="IVI_Fgen.lvlib" Type="Library" URL="../Devices/IVI/IVI_Fgen/IVI_Fgen.lvlib"/>
-				<Item Name="IVI_PwrMeter.lvlib" Type="Library" URL="../Devices/IVI/IVI_PwrMeter/IVI_PwrMeter.lvlib"/>
-				<Item Name="IVI_Scope.lvlib" Type="Library" URL="../Devices/IVI/IVI_Scope/IVI_Scope.lvlib"/>
 				<Item Name="MAX_IVIconfigData.nce" Type="Document" URL="../Devices/IVI/MAX_IVIconfigData.nce"/>
 			</Item>
 		</Item>
@@ -372,23 +94,17 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Examples" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="CS++Example.ini" Type="Document" URL="../Examples/CS++Example.ini"/>
-			<Item Name="CS++ExampleContent.vi" Type="VI" URL="../Examples/CS++ExampleContent.vi"/>
-			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
-			<Item Name="CS++Core-Examples.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-Examples.lvlib"/>
-			<Item Name="CS++Core-ExampleSV.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/CS++Core-ExampleSV.lvlib"/>
-			<Item Name="PVClient-Example.lvlib" Type="Library" URL="../Examples/Core/CS++Core-Examples/Actors/PVClient-Example/PVClient-Example.lvlib"/>
-			<Item Name="Simulate DMM Multi-Point Reading.vi" Type="VI" URL="../Examples/Simulate DMM Multi-Point Reading.vi"/>
 		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 			<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;userlib&gt;/Monitored Actor/Monitored Actor.lvlib"/>
 		</Item>
 		<Item Name="User" Type="Folder">
-			<Item Name="CS++UserContent.vi" Type="VI" URL="../User/CS++UserContent.vi"/>
 			<Item Name="Kill-VI.vi" Type="VI" URL="../Tools/Kill-VI.vi"/>
 			<Item Name="Show VI States.vi" Type="VI" URL="../Tools/Show VI States.vi"/>
 			<Item Name="Syslog Collector Example.vi" Type="VI" URL="/&lt;userlib&gt;/syslog/examples/Syslog Collector Example.vi"/>
 		</Item>
+		<Item Name="CS++UserContent SRQ.vi" Type="VI" URL="../User/CS++UserContent SRQ.vi"/>
 		<Item Name="Launch CS++StartActor.vi" Type="VI" URL="../Core/Actors/CS++StartActor/Launch CS++StartActor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -410,37 +126,18 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
-				<Item Name="Batch Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Batch Msg/Batch Msg.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Create New Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create New Rendezvous.vi"/>
-				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
-				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
-				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
-				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
-				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
-				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
-				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
-				<Item Name="dscProc.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/process/dscProc.dll"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
-				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
@@ -452,208 +149,18 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/GetNamedRendezvousPrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="IviACPwr Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Close.vi"/>
-				<Item Name="IviACPwr Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Error-Query.vi"/>
-				<Item Name="IviACPwr Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Initialize With Options.vi"/>
-				<Item Name="IviACPwr Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Initialize.vi"/>
-				<Item Name="IviACPwr IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr IVI Error Converter.vi"/>
-				<Item Name="IviACPwr Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Reset With Defaults.vi"/>
-				<Item Name="IviACPwr Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Reset.vi"/>
-				<Item Name="IviACPwr Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Revision Query.vi"/>
-				<Item Name="IviACPwr Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviacpwr/_IviACPwr.llb/IviACPwr Self-Test.vi"/>
-				<Item Name="IviCounter Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Close.vi"/>
-				<Item Name="IviCounter Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Error-Query.vi"/>
-				<Item Name="IviCounter Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Initialize With Options.vi"/>
-				<Item Name="IviCounter Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Initialize.vi"/>
-				<Item Name="IviCounter IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter IVI Error Converter.vi"/>
-				<Item Name="IviCounter Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Reset With Defaults.vi"/>
-				<Item Name="IviCounter Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Reset.vi"/>
-				<Item Name="IviCounter Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Revision Query.vi"/>
-				<Item Name="IviCounter Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivicounter/_IviCounter.llb/IviCounter Self-Test.vi"/>
-				<Item Name="IviDCPwr Abort [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Abort [TRG].vi"/>
-				<Item Name="IviDCPwr Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Close.vi"/>
-				<Item Name="IviDCPwr Configure Current Limit.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Current Limit.vi"/>
-				<Item Name="IviDCPwr Configure Output Enabled.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Output Enabled.vi"/>
-				<Item Name="IviDCPwr Configure Output Range.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Output Range.vi"/>
-				<Item Name="IviDCPwr Configure OVP.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure OVP.vi"/>
-				<Item Name="IviDCPwr Configure Trigger Source [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Trigger Source [TRG].vi"/>
-				<Item Name="IviDCPwr Configure Triggered Current Limit [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Triggered Current Limit [TRG].vi"/>
-				<Item Name="IviDCPwr Configure Triggered Voltage Level [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Triggered Voltage Level [TRG].vi"/>
-				<Item Name="IviDCPwr Configure Voltage Level.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Configure Voltage Level.vi"/>
-				<Item Name="IviDCPwr Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Error-Query.vi"/>
-				<Item Name="IviDCPwr Get Channel Name.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Get Channel Name.vi"/>
-				<Item Name="IviDCPwr Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initialize With Options.vi"/>
-				<Item Name="IviDCPwr Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initialize.vi"/>
-				<Item Name="IviDCPwr Initiate [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Initiate [TRG].vi"/>
-				<Item Name="IviDCPwr IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr IVI Error Converter.vi"/>
-				<Item Name="IviDCPwr Measure [MSR].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Measure [MSR].vi"/>
-				<Item Name="IviDCPwr Query Max Current Limit.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Query Max Current Limit.vi"/>
-				<Item Name="IviDCPwr Query Max Voltage Level.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Query Max Voltage Level.vi"/>
-				<Item Name="IviDCPwr Query Output State.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Query Output State.vi"/>
-				<Item Name="IviDCPwr Reset Output Protection.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset Output Protection.vi"/>
-				<Item Name="IviDCPwr Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset With Defaults.vi"/>
-				<Item Name="IviDCPwr Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Reset.vi"/>
-				<Item Name="IviDCPwr Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Revision Query.vi"/>
-				<Item Name="IviDCPwr Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Self-Test.vi"/>
-				<Item Name="IviDCPwr Send Software Trigger [SWT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividcpwr/_IviDCPwr.llb/IviDCPwr Send Software Trigger [SWT].vi"/>
-				<Item Name="IviDmm Abort.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Abort.vi"/>
-				<Item Name="IviDmm Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Close.vi"/>
-				<Item Name="IviDmm Configure AC Bandwidth [AC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure AC Bandwidth [AC].vi"/>
-				<Item Name="IviDmm Configure Auto Zero Mode [AZ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Auto Zero Mode [AZ].vi"/>
-				<Item Name="IviDmm Configure Fixed Ref Junction [TC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Fixed Ref Junction [TC].vi"/>
-				<Item Name="IviDmm Configure Frequency Voltage Range [FRQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Frequency Voltage Range [FRQ].vi"/>
-				<Item Name="IviDmm Configure Meas Complete Dest [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Meas Complete Dest [MP].vi"/>
-				<Item Name="IviDmm Configure Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Measurement.vi"/>
-				<Item Name="IviDmm Configure Multi-Point [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Multi-Point [MP].vi"/>
-				<Item Name="IviDmm Configure Power Line Frequency [PLF].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Power Line Frequency [PLF].vi"/>
-				<Item Name="IviDmm Configure RTD [RTD].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure RTD [RTD].vi"/>
-				<Item Name="IviDmm Configure Thermistor [THM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Thermistor [THM].vi"/>
-				<Item Name="IviDmm Configure Thermocouple [TC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Thermocouple [TC].vi"/>
-				<Item Name="IviDmm Configure Transducer Type [TMP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Transducer Type [TMP].vi"/>
-				<Item Name="IviDmm Configure Trigger Slope [TS].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Trigger Slope [TS].vi"/>
-				<Item Name="IviDmm Configure Trigger.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Configure Trigger.vi"/>
-				<Item Name="IviDmm Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Error-Query.vi"/>
-				<Item Name="IviDmm Fetch Multi-Point [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Fetch Multi-Point [MP].vi"/>
-				<Item Name="IviDmm Fetch.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Fetch.vi"/>
-				<Item Name="IviDmm Get Aperture Time Info [DI].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Get Aperture Time Info [DI].vi"/>
-				<Item Name="IviDmm Get Auto Range Value [ARV].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Get Auto Range Value [ARV].vi"/>
-				<Item Name="IviDmm Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initialize With Options.vi"/>
-				<Item Name="IviDmm Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initialize.vi"/>
-				<Item Name="IviDmm Initiate.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Initiate.vi"/>
-				<Item Name="IviDmm Is Over-Range.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Is Over-Range.vi"/>
-				<Item Name="IviDmm IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm IVI Error Converter.vi"/>
-				<Item Name="IviDmm Read Multi-Point [MP].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Read Multi-Point [MP].vi"/>
-				<Item Name="IviDmm Read.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Read.vi"/>
-				<Item Name="IviDmm Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Reset With Defaults.vi"/>
-				<Item Name="IviDmm Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Reset.vi"/>
-				<Item Name="IviDmm Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Revision Query.vi"/>
-				<Item Name="IviDmm Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Self-Test.vi"/>
-				<Item Name="IviDmm Send Software Trigger [SWT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ividmm/_ividmm.llb/IviDmm Send Software Trigger [SWT].vi"/>
-				<Item Name="IviFgen Abort Generation.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Abort Generation.vi"/>
-				<Item Name="IviFgen Clear Arbitrary Memory [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Clear Arbitrary Memory [SEQ].vi"/>
-				<Item Name="IviFgen Clear Arbitrary Sequence [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Clear Arbitrary Sequence [SEQ].vi"/>
-				<Item Name="IviFgen Clear Arbitrary Waveform [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Clear Arbitrary Waveform [ARB].vi"/>
-				<Item Name="IviFgen Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Close.vi"/>
-				<Item Name="IviFgen Configure Advance Trigger [AT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Advance Trigger [AT].vi"/>
-				<Item Name="IviFgen Configure AM Enabled [AM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure AM Enabled [AM].vi"/>
-				<Item Name="IviFgen Configure AM Internal [AM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure AM Internal [AM].vi"/>
-				<Item Name="IviFgen Configure AM Source [AM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure AM Source [AM].vi"/>
-				<Item Name="IviFgen Configure Arb Frequency [AF].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Arb Frequency [AF].vi"/>
-				<Item Name="IviFgen Configure Arbitrary Sequence [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Arbitrary Sequence [SEQ].vi"/>
-				<Item Name="IviFgen Configure Arbitrary Waveform [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Arbitrary Waveform [ARB].vi"/>
-				<Item Name="IviFgen Configure Burst Count [BST].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Burst Count [BST].vi"/>
-				<Item Name="IviFgen Configure Data Marker [DM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Data Marker [DM].vi"/>
-				<Item Name="IviFgen Configure FM Enabled [FM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure FM Enabled [FM].vi"/>
-				<Item Name="IviFgen Configure FM Internal [FM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure FM Internal [FM].vi"/>
-				<Item Name="IviFgen Configure FM Source [FM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure FM Source [FM].vi"/>
-				<Item Name="IviFgen Configure Internal Trigger Rate [IT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Internal Trigger Rate [IT].vi"/>
-				<Item Name="IviFgen Configure Operation Mode.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Operation Mode.vi"/>
-				<Item Name="IviFgen Configure Output Enabled.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Output Enabled.vi"/>
-				<Item Name="IviFgen Configure Output Impedance.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Output Impedance.vi"/>
-				<Item Name="IviFgen Configure Output Mode.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Output Mode.vi"/>
-				<Item Name="IviFgen Configure Ref Clock Source.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Ref Clock Source.vi"/>
-				<Item Name="IviFgen Configure Resume Trigger [RT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Resume Trigger [RT].vi"/>
-				<Item Name="IviFgen Configure Sample Clock [SC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sample Clock [SC].vi"/>
-				<Item Name="IviFgen Configure Sample Clock Output Enabled [SC].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sample Clock Output Enabled [SC].vi"/>
-				<Item Name="IviFgen Configure Sample Rate [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sample Rate [ARB].vi"/>
-				<Item Name="IviFgen Configure Sparse Marker [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Sparse Marker [SM].vi"/>
-				<Item Name="IviFgen Configure Standard Waveform [STD].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Standard Waveform [STD].vi"/>
-				<Item Name="IviFgen Configure Start Trigger [STT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Start Trigger [STT].vi"/>
-				<Item Name="IviFgen Configure Stop Trigger [SPT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Stop Trigger [SPT].vi"/>
-				<Item Name="IviFgen Configure Trigger Source [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Configure Trigger Source [TRG].vi"/>
-				<Item Name="IviFgen Create Arbitrary Sequence [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Arbitrary Sequence [SEQ].vi"/>
-				<Item Name="IviFgen Create Arbitrary Waveform [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Arbitrary Waveform [ARB].vi"/>
-				<Item Name="IviFgen Create Channel Arbitrary Waveform [ACH].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Channel Arbitrary Waveform [ACH].vi"/>
-				<Item Name="IviFgen Create Channel Arbitrary Waveform Int16 [AB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Channel Arbitrary Waveform Int16 [AB].vi"/>
-				<Item Name="IviFgen Create Channel Arbitrary Waveform Int32 [AB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Create Channel Arbitrary Waveform Int32 [AB].vi"/>
-				<Item Name="IviFgen Disable All Data Markers [DM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Disable All Data Markers [DM].vi"/>
-				<Item Name="IviFgen Disable All Sparse Markers [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Disable All Sparse Markers [SM].vi"/>
-				<Item Name="IviFgen Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Error-Query.vi"/>
-				<Item Name="IviFgen Get Channel Name.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Channel Name.vi"/>
-				<Item Name="IviFgen Get Data Marker Name [DM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Data Marker Name [DM].vi"/>
-				<Item Name="IviFgen Get Sparse Marker Indexes [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Sparse Marker Indexes [SM].vi"/>
-				<Item Name="IviFgen Get Sparse Marker Name [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Get Sparse Marker Name [SM].vi"/>
-				<Item Name="IviFgen Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initialize With Options.vi"/>
-				<Item Name="IviFgen Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initialize.vi"/>
-				<Item Name="IviFgen Initiate Generation.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Initiate Generation.vi"/>
-				<Item Name="IviFgen IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen IVI Error Converter.vi"/>
-				<Item Name="IviFgen Query Arb Sequence Capabilities [SEQ].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Query Arb Sequence Capabilities [SEQ].vi"/>
-				<Item Name="IviFgen Query Arb Waveform Capabilities [ARB].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Query Arb Waveform Capabilities [ARB].vi"/>
-				<Item Name="IviFgen Query Arb Wfm Capabilities 64 [ARB64].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Query Arb Wfm Capabilities 64 [ARB64].vi"/>
-				<Item Name="IviFgen Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Reset With Defaults.vi"/>
-				<Item Name="IviFgen Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Reset.vi"/>
-				<Item Name="IviFgen Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Revision Query.vi"/>
-				<Item Name="IviFgen Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Self-Test.vi"/>
-				<Item Name="IviFgen Send Software Advance Trigger [AT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Advance Trigger [AT].vi"/>
-				<Item Name="IviFgen Send Software Hold Trigger [HT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Hold Trigger [HT].vi"/>
-				<Item Name="IviFgen Send Software Resume Trigger [RT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Resume Trigger [RT].vi"/>
-				<Item Name="IviFgen Send Software Stop Trigger [SPT].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Stop Trigger [SPT].vi"/>
-				<Item Name="IviFgen Send Software Trigger [TRG].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Send Software Trigger [TRG].vi"/>
-				<Item Name="IviFgen Set Sparse Marker Indexes [SM].vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivifgen/_ivifgen.llb/IviFgen Set Sparse Marker Indexes [SM].vi"/>
-				<Item Name="IviPwrMeter Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Close.vi"/>
-				<Item Name="IviPwrMeter Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Error-Query.vi"/>
-				<Item Name="IviPwrMeter Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Initialize With Options.vi"/>
-				<Item Name="IviPwrMeter Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Initialize.vi"/>
-				<Item Name="IviPwrMeter IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter IVI Error Converter.vi"/>
-				<Item Name="IviPwrMeter Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Reset With Defaults.vi"/>
-				<Item Name="IviPwrMeter Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Reset.vi"/>
-				<Item Name="IviPwrMeter Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Revision Query.vi"/>
-				<Item Name="IviPwrMeter Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/ivipwrmeter/_iviPwrMeter.llb/IviPwrMeter Self-Test.vi"/>
-				<Item Name="IviScope Close.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Close.vi"/>
-				<Item Name="IviScope Error-Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Error-Query.vi"/>
-				<Item Name="IviScope Initialize With Options.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Initialize With Options.vi"/>
-				<Item Name="IviScope Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Initialize.vi"/>
-				<Item Name="IviScope IVI Error Converter.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope IVI Error Converter.vi"/>
-				<Item Name="IviScope Reset With Defaults.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Reset With Defaults.vi"/>
-				<Item Name="IviScope Reset.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Reset.vi"/>
-				<Item Name="IviScope Revision Query.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Revision Query.vi"/>
-				<Item Name="IviScope Self-Test.vi" Type="VI" URL="/&lt;vilib&gt;/ivi/iviscope/_iviscope.llb/IviScope Self-Test.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
-				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_DataFinder Controls.lvlib" Type="Library" URL="/&lt;vilib&gt;/userdefined/NI_DataFinder Controls.lvlib"/>
-				<Item Name="NI_DataFinder Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/DataFinder/NI_DataFinder Toolkit.lvlib"/>
-				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="PRC_GetProcList.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_GetProcList.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Release Waiting Procs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Release Waiting Procs.vi"/>
-				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
-				<Item Name="Rendezvous Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB Action.ctl"/>
-				<Item Name="Rendezvous Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB.vi"/>
-				<Item Name="Rendezvous RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous RefNum"/>
-				<Item Name="RendezvousDataCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RendezvousDataCluster.ctl"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="Subscribe All Local Processes.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/controls/Alarms and Events/internal/Subscribe All Local Processes.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -662,45 +169,8 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
-				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="B_3C2E.lvlib" Type="Library" URL="../../Projects/STF/Mole Actors/B_3C2E/B_3C2E.lvlib"/>
-			<Item Name="B_Circular.lvlib" Type="Library" URL="../../Projects/STF/Mole Actors/B_Circular/B_Circular.lvlib"/>
-			<Item Name="CS++STFContent.vi" Type="VI" URL="../../Projects/STF/CS++User/CS++STFContent.vi"/>
-			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="IviACPwr_ni.dll" Type="Document" URL="IviACPwr_ni.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="IviCounter_ni.dll" Type="Document" URL="IviCounter_ni.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ividcpwr.dll" Type="Document" URL="ividcpwr.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="IviDmm.dll" Type="Document" URL="IviDmm.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="IviFgen.dll" Type="Document" URL="IviFgen.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="IviPwrMeter.dll" Type="Document" URL="IviPwrMeter.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="IviScope.dll" Type="Document" URL="IviScope.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="LV-Patches.lvlib" Type="Library" URL="../../LV_Patches/LV-Patches.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="lvDataFinder.dll" Type="Document" URL="/&lt;nishared&gt;/DataFinder/Toolkit/2013/lvDataFinder.dll"/>
-			<Item Name="MF_PCEMP.lvlib" Type="Library" URL="../../Projects/SCMT/MF_PCEMP.lvlib"/>
-			<Item Name="Mole Data Analysis.lvlib" Type="Library" URL="../../Projects/SCMT/Measurement/Mole Data Analysis/Mole Data Analysis.lvlib"/>
-			<Item Name="Mole Data Evaluation.lvlib" Type="Library" URL="../../Projects/SCMT/Evaluation/Mole Data Evaluation.lvlib"/>
-			<Item Name="Mole.lvlib" Type="Library" URL="../../Projects/STF/Libraries/Mole/Mole.lvlib"/>
-			<Item Name="Mole_TDMS_List.lvlib" Type="Library" URL="../../Projects/STF/Mole Actors/Mole TDMS List/Mole_TDMS_List.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CSPP Application" Type="EXE">
@@ -731,7 +201,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/CS++Core/CS++.ico</Property>
 				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref"></Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
 				<Property Name="Source[0].itemID" Type="Str">{6726CE01-1797-4FFF-8529-684F7499AF2A}</Property>
@@ -744,7 +214,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Examples/CS++Example.ini</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Examples/CS++Core-ExampleSV.lvlib</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
