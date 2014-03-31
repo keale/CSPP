@@ -78,6 +78,14 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="IVI_Devices.ini" Type="Document" URL="../Devices/IVI/IVI_Devices.ini"/>
 				<Item Name="MAX_IVIconfigData.nce" Type="Document" URL="../Devices/IVI/MAX_IVIconfigData.nce"/>
+				<Item Name="IVI-Content.vi" Type="VI" URL="../Devices/IVI/IVI-Content.vi"/>
+				<Item Name="IVI_ACPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_ACPwr/IVI_ACPwr.lvlib"/>
+				<Item Name="IVI_Counter.lvlib" Type="Library" URL="../Devices/IVI/IVI_Counter/IVI_Counter.lvlib"/>
+				<Item Name="IVI_DCPwr.lvlib" Type="Library" URL="../Devices/IVI/IVI_DCPwr/IVI_DCPwr.lvlib"/>
+				<Item Name="IVI_DMM.lvlib" Type="Library" URL="../Devices/IVI/IVI_DMM/IVI_DMM.lvlib"/>
+				<Item Name="IVI_Fgen.lvlib" Type="Library" URL="../Devices/IVI/IVI_Fgen/IVI_Fgen.lvlib"/>
+				<Item Name="IVI_PwrMeter.lvlib" Type="Library" URL="../Devices/IVI/IVI_PwrMeter/IVI_PwrMeter.lvlib"/>
+				<Item Name="IVI_Scope.lvlib" Type="Library" URL="../Devices/IVI/IVI_Scope/IVI_Scope.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
@@ -334,6 +342,30 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviACPwr_ni.dll" Type="Document" URL="IviACPwr_ni.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviCounter_ni.dll" Type="Document" URL="IviCounter_ni.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ividcpwr.dll" Type="Document" URL="ividcpwr.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviDmm.dll" Type="Document" URL="IviDmm.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviFgen.dll" Type="Document" URL="IviFgen.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviPwrMeter.dll" Type="Document" URL="IviPwrMeter.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IviScope.dll" Type="Document" URL="IviScope.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
