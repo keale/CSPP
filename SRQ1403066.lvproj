@@ -125,11 +125,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;userlib&gt;/Monitored Actor/Monitored Actor.lvlib"/>
 		</Item>
 		<Item Name="User" Type="Folder">
+			<Item Name="CS++UserContent.vi" Type="VI" URL="../User/CS++UserContent.vi"/>
 			<Item Name="Kill-VI.vi" Type="VI" URL="../Tools/Kill-VI.vi"/>
 			<Item Name="Show VI States.vi" Type="VI" URL="../Tools/Show VI States.vi"/>
 			<Item Name="Syslog Collector Example.vi" Type="VI" URL="/&lt;userlib&gt;/syslog/examples/Syslog Collector Example.vi"/>
 		</Item>
-		<Item Name="CS++UserContent SRQ.vi" Type="VI" URL="../User/CS++UserContent SRQ.vi"/>
 		<Item Name="Launch CS++StartActor.vi" Type="VI" URL="../Core/Actors/CS++StartActor/Launch CS++StartActor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
