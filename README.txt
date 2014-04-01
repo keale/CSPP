@@ -30,7 +30,14 @@ External Dependencies
 - Syslog; Refer to http://sine.ni.com/nips/cds/view/p/lang/de/nid/209116
 - Monitored Actor; Refer to https://decibel.ni.com/content/thread/18301 and http://lavag.org/topic/17056-monitoring-actors
 
+Getting started:
+- Create a project specific copy of "CS++.lvproj"
 - CS++UserContents.vi; Include your project specific Content-VIs in a corresponding case of the conditional disable structure. This VI is included in the "Launch CS++StartActor.vi". This makes building an application convenient since the application builder can find all dependencies in the VI-Hierarchy.
+- You need to create your project specific ini-file.
+  - Sample ini-file should be available for all classes, either in the LV-Project or on disk in the corresponding class or package folder.
+- You need to create and deploy your project specific shared Variable libraries.
+  - Sample shared Variable libraries should be available for all concerned classes on disk in the corresponding class or package folder.
+- Run "Launch CS++StartActor.vi
 
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
