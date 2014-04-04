@@ -4,17 +4,25 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Config" Type="Folder">
+		<Item Name="CS++GoBang with SharedVars.ini" Type="Document" URL="../CS++GoBang with SharedVars.ini"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="GoBang_CheckArray.vi" Type="VI" URL="../GoBang_CheckArray.vi"/>
-		<Item Name="GoBang_CheckLine.vi" Type="VI" URL="../GoBang_CheckLine.vi"/>
 		<Item Name="GoBang_RemoveStones.vi" Type="VI" URL="../GoBang_RemoveStones.vi"/>
 		<Item Name="GoBang_RemoveStonesFromLine.vi" Type="VI" URL="../GoBang_RemoveStonesFromLine.vi"/>
 		<Item Name="GoBang_RemoveStonesFromSubArray.vi" Type="VI" URL="../GoBang_RemoveStonesFromSubArray.vi"/>
 		<Item Name="GoBang_WinSituation.vi" Type="VI" URL="../GoBang_WinSituation.vi"/>
+		<Item Name="GoBang_WinSituationCheckArray.vi" Type="VI" URL="../GoBang_WinSituationCheckArray.vi"/>
+		<Item Name="GoBang_WinSituationCheckLine.vi" Type="VI" URL="../GoBang_WinSituationCheckLine.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="BoardField.ctl" Type="VI" URL="../typdefs/BoardField.ctl"/>
 		<Item Name="GameState.ctl" Type="VI" URL="../typdefs/GameState.ctl"/>
+	</Item>
+	<Item Name="ServerMsgs" Type="Folder">
+		<Item Name="Analyse Board Msg.lvclass" Type="LVClass" URL="../CS++GoBangServer Messages/Analyse Board Msg/Analyse Board Msg.lvclass"/>
+		<Item Name="JoinGame Msg.lvclass" Type="LVClass" URL="../CS++GoBangServer Messages/JoinGame Msg/JoinGame Msg.lvclass"/>
 	</Item>
 	<Item Name="CS++GoBangServer.lvclass" Type="LVClass" URL="../Server/CS++GoBangServer.lvclass"/>
 	<Item Name="GoBang_Client.vi" Type="VI" URL="../GoBang_Client.vi"/>
