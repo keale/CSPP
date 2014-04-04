@@ -25,13 +25,22 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="varPersistentID:{0053D615-72D5-4853-8209-2653B4135637}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorCode</Property>
 	<Property Name="varPersistentID:{0B3039CB-2960-42FD-828A-FD9C1921CB32}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myString</Property>
 	<Property Name="varPersistentID:{105002CA-A47D-43F6-BCA4-B35E70C73093}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ErrorMessage</Property>
+	<Property Name="varPersistentID:{10FD8620-3B04-4DAB-AF31-ED8BD37C22C5}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/GameOver</Property>
+	<Property Name="varPersistentID:{1878B265-DC89-4173-BA0F-F2A35663E995}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/BlackPlayer</Property>
 	<Property Name="varPersistentID:{1DA55F5F-48BB-4DD9-AD5E-F6E733948C1D}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_DriverRevision</Property>
 	<Property Name="varPersistentID:{42A09655-3300-4E73-BB56-4FFCEDD3924E}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myDouble</Property>
+	<Property Name="varPersistentID:{445722A6-54D0-408D-A40E-F4A612A91EFE}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/WhiteWon</Property>
+	<Property Name="varPersistentID:{49C790A2-37DD-413A-8912-ADC39FDD6A2F}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/GameState</Property>
 	<Property Name="varPersistentID:{4ECB09A7-AE38-4EB1-8A6D-AC6DC0850981}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultCode</Property>
+	<Property Name="varPersistentID:{54965AFF-2DF2-4573-B197-FBE12B5A5DA9}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/GameBoard</Property>
+	<Property Name="varPersistentID:{6445FE21-34C6-43B3-AB0A-A644DA4D2A4C}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/BlackWon</Property>
+	<Property Name="varPersistentID:{8D3887DC-5819-497E-B725-DD6C10545909}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/JoinGame</Property>
 	<Property Name="varPersistentID:{93BCC0EF-7113-4C6F-80BF-A983B22B8594}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_ResourceName</Property>
 	<Property Name="varPersistentID:{9BD2689A-61AC-4F93-8F43-D3072EC0A0F2}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_FirmwareRevision</Property>
 	<Property Name="varPersistentID:{A082EC43-B52E-4488-9334-227D3E70E1E5}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myCS++DeviceActor/myCS++DeviceActor_SelftestResultMessage</Property>
 	<Property Name="varPersistentID:{B45A96D2-2B8D-4381-878C-E907D7913D50}" Type="Ref">/My Computer/CS++Core-ExampleSV.lvlib/myBoolean</Property>
+	<Property Name="varPersistentID:{DCF67415-847E-43D1-B680-5EA57C535BD9}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/UpdateGameBoard</Property>
+	<Property Name="varPersistentID:{E7BEFD54-FEFA-4093-A381-6E47991B8DD2}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/WhitePlayer</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -117,6 +126,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
 			<Item Name="Simulate DMM Multi-Point Reading.vi" Type="VI" URL="../Examples/Simulate DMM Multi-Point Reading.vi"/>
 			<Item Name="GoBang.lvlib" Type="Library" URL="../Examples/GoBang/GoBang.lvlib"/>
+			<Item Name="GoBangSharedVar.lvlib" Type="Library" URL="../Examples/GoBang/GoBangSharedVar.lvlib"/>
 		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
