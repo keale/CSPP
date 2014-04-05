@@ -7,6 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Config" Type="Folder">
 		<Item Name="CS++GoBang with SharedVars.ini" Type="Document" URL="../CS++GoBang with SharedVars.ini"/>
+		<Item Name="CS++GoBang with SharedVars_Laptop.ini" Type="Document" URL="../CS++GoBang with SharedVars_Laptop.ini"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="GoBang_RemoveStones.vi" Type="VI" URL="../GoBang_RemoveStones.vi"/>
@@ -24,6 +25,13 @@
 		<Item Name="Analyse Board Msg.lvclass" Type="LVClass" URL="../CS++GoBangServer Messages/Analyse Board Msg/Analyse Board Msg.lvclass"/>
 		<Item Name="JoinGame Msg.lvclass" Type="LVClass" URL="../CS++GoBangServer Messages/JoinGame Msg/JoinGame Msg.lvclass"/>
 	</Item>
+	<Item Name="ClientMsgs" Type="Folder">
+		<Item Name="Write black player Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write black player Msg/Write black player Msg.lvclass"/>
+		<Item Name="Write game board Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write game board Msg/Write game board Msg.lvclass"/>
+		<Item Name="Write game state Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write game state Msg/Write game state Msg.lvclass"/>
+		<Item Name="Write white player Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write white player Msg/Write white player Msg.lvclass"/>
+	</Item>
 	<Item Name="CS++GoBangServer.lvclass" Type="LVClass" URL="../Server/CS++GoBangServer.lvclass"/>
 	<Item Name="GoBang_Client.vi" Type="VI" URL="../GoBang_Client.vi"/>
+	<Item Name="CS++GoBangClient.lvclass" Type="LVClass" URL="../Client/CS++GoBangClient.lvclass"/>
 </Library>
