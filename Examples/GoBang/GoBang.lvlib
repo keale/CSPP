@@ -16,6 +16,7 @@
 		<Item Name="GoBang_WinSituation.vi" Type="VI" URL="../GoBang_WinSituation.vi"/>
 		<Item Name="GoBang_WinSituationCheckArray.vi" Type="VI" URL="../GoBang_WinSituationCheckArray.vi"/>
 		<Item Name="GoBang_WinSituationCheckLine.vi" Type="VI" URL="../GoBang_WinSituationCheckLine.vi"/>
+		<Item Name="GoBang_Data2PV.vi" Type="VI" URL="../GoBang_Data2PV.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="BoardField.ctl" Type="VI" URL="../typdefs/BoardField.ctl"/>
@@ -30,6 +31,8 @@
 		<Item Name="Write game board Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write game board Msg/Write game board Msg.lvclass"/>
 		<Item Name="Write game state Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write game state Msg/Write game state Msg.lvclass"/>
 		<Item Name="Write white player Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Write white player Msg/Write white player Msg.lvclass"/>
+		<Item Name="Join Game Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Join Game Msg/Join Game Msg.lvclass"/>
+		<Item Name="Send Move Msg.lvclass" Type="LVClass" URL="../CS++GoBangClient Messages/Send Move Msg/Send Move Msg.lvclass"/>
 	</Item>
 	<Item Name="CS++GoBangServer.lvclass" Type="LVClass" URL="../Server/CS++GoBangServer.lvclass"/>
 	<Item Name="GoBang_Client.vi" Type="VI" URL="../GoBang_Client.vi"/>

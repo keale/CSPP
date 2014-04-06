@@ -4,4 +4,6 @@
 4. Create GUI Events
 5. Create VIs for firing events
 6. Create Msgs for this VIs
-7. 
+8. For PVMonitor Events, dont use ActorFramework wizzard, instead create a class, inherit from PVUpdateMsg, override "Do.vi"
+9. Edit INI file.
+10. if you want access to actor attributes, ever from your actor:core.vi you have to send a message.
