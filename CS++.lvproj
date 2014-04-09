@@ -22,13 +22,13 @@ Eine Kopie der Lizenz finden Sie hier: http://www.osor.eu/eupl
 Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher Form vereinbart, wird die unter der Lizenz verbreitete Software "so wie sie ist", OHNE JEGLICHE GEWÄHRLEISTUNG ODER BEDINGUNGEN - ausdrücklich oder stillschweigend - verbreitet.
 
 Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
-	<Property Name="varPersistentID:{10FD8620-3B04-4DAB-AF31-ED8BD37C22C5}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/GameOver</Property>
-	<Property Name="varPersistentID:{1878B265-DC89-4173-BA0F-F2A35663E995}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/BlackPlayer</Property>
-	<Property Name="varPersistentID:{49C790A2-37DD-413A-8912-ADC39FDD6A2F}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/GameState</Property>
-	<Property Name="varPersistentID:{54965AFF-2DF2-4573-B197-FBE12B5A5DA9}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/GameBoard</Property>
-	<Property Name="varPersistentID:{8D3887DC-5819-497E-B725-DD6C10545909}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/JoinGame</Property>
-	<Property Name="varPersistentID:{DCF67415-847E-43D1-B680-5EA57C535BD9}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/UpdateGameBoard</Property>
-	<Property Name="varPersistentID:{E7BEFD54-FEFA-4093-A381-6E47991B8DD2}" Type="Ref">/My Computer/Examples/GoBangSharedVar.lvlib/WhitePlayer</Property>
+	<Property Name="varPersistentID:{10FD8620-3B04-4DAB-AF31-ED8BD37C22C5}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by server/GameOver</Property>
+	<Property Name="varPersistentID:{1878B265-DC89-4173-BA0F-F2A35663E995}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by server/BlackPlayer</Property>
+	<Property Name="varPersistentID:{49C790A2-37DD-413A-8912-ADC39FDD6A2F}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by server/GameState</Property>
+	<Property Name="varPersistentID:{54965AFF-2DF2-4573-B197-FBE12B5A5DA9}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by server/GameBoard</Property>
+	<Property Name="varPersistentID:{8D3887DC-5819-497E-B725-DD6C10545909}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by clients/JoinGame</Property>
+	<Property Name="varPersistentID:{DCF67415-847E-43D1-B680-5EA57C535BD9}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by clients/UpdateGameBoard</Property>
+	<Property Name="varPersistentID:{E7BEFD54-FEFA-4093-A381-6E47991B8DD2}" Type="Ref">/My Computer/Examples/GoBang.lvlib/GoBangSharedVar.lvlib/Written by server/WhitePlayer</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -91,7 +91,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="CS++Test.vi" Type="VI" URL="../Examples/CS++Test.vi"/>
 			<Item Name="Simulate DMM Multi-Point Reading.vi" Type="VI" URL="../Examples/Simulate DMM Multi-Point Reading.vi"/>
 			<Item Name="GoBang.lvlib" Type="Library" URL="../Examples/GoBang/GoBang.lvlib"/>
-			<Item Name="GoBangSharedVar.lvlib" Type="Library" URL="../Examples/GoBang/GoBangSharedVar.lvlib"/>
 		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
